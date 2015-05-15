@@ -48,21 +48,16 @@
 	<noscript>
 		&amp;lt;div id="no-js"&amp;gt;Please enable JavaScript in your browser to experience {{ HOME_PATH }} fully&amp;lt;/div&amp;gt;
 	</noscript>
-	<div id=background>
-		<div id="octpus">
-			"a"
-		</div>
-	    <div id="page-container">
-			<div>
-				{% include themes/Snail/nav.html %}
-				<div id="page-content">
-					{{ content }}
-				</div>
-				<div class="clearboth pagebottom"></div>
+	<div id="page-container">
+		<div>
+			{% include themes/Snail/nav.html %}
+			<div id="page-content">
+			{{ content }}
 			</div>
+			<div class="clearboth pagebottom"></div>
 		</div>
+	</div>
 	{% include themes/Snail/footer.html %}
 	{% include JB/analytics %}
-	</div>
 </body>
 </html>
