@@ -245,9 +245,10 @@ h2.substyle {
 	position:relative;
 }
 #octpus {
-	background-color: transparent;
+	position:relative;
+	left: -20px;
+	top: -100px;
 	background:url("../img/backg.png") no-repeat;
-	background-position: 150px 50px;
 }
 #page-content {
 	}.cont932 {
