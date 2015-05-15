@@ -94,7 +94,7 @@ nav {
 	height:54px;
 	font-size:14px;
 	/*background:url("../img/nav-bg.png") no-repeat 7px -30px;*/
-	background:url("../img/nav-bg.png") no-repeat 220px -30px;
+	background:url("../img/nav-bg.png") no-repeat 7px -30px;
 	margin:0 0 -34px;
 	padding:18px 0 34px;
 	-webkit-touch-callout:none;
