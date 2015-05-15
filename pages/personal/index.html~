@@ -5,3 +5,6 @@ description: ""
 ---
 {% include JB/setup %}
 
+<p>
+Hello, max
+</p>

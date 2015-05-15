@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Index"
+title: "Personal"
 description: ""
 ---
 {% include JB/setup %}
-
