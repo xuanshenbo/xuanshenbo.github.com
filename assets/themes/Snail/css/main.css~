@@ -245,6 +245,8 @@ h2.substyle {
 	position:relative;
 }
 #octpus {
+	height:300px;
+	width:300px;
 	position:relative;
 	left: 100px;
 	top: 300px;
