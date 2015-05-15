@@ -244,8 +244,9 @@ h2.substyle {
 	width:940px;
 	position:relative;
 }
-#page-octpus {
+#octpus {
 	background:url("../img/backg.png") no-repeat;
+	background-position: 150px 50px;
 }
 #page-content {
 	}.cont932 {
