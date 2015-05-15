@@ -249,6 +249,7 @@ h2.substyle {
 	left: 100px;
 	top: 300px;
 	background:url("../img/backg.png") no-repeat;
+	background-size: 300px 200px;
 }
 #page-content {
 	}.cont932 {
