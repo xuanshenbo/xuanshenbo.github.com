@@ -89,12 +89,13 @@ a {
 b,strong {
 	font-weight:600;
 }
+
 nav {
 	width:940px;
 	height:54px;
 	font-size:14px;
 	/*background:url("../img/nav-bg.png") no-repeat 7px -30px;*/
-	background:url("../img/nav-bg.png") 20px -30px;
+	/*background:url("../img/nav-bg.png") 20px -30px;*/
 	margin:0 0 -34px;
 	padding:18px 0 34px;
 	-webkit-touch-callout:none;
@@ -180,6 +181,9 @@ button {
 }
 tr td {
 	padding:2px 6px;
+}
+#background {
+	background:url("../img/nav-bg.png") 20px -30px;
 }
 #no-js {
 	background:#44A2E9;
