@@ -232,7 +232,7 @@ h2.substyle {
 	margin:0;
 }
 #page-container {
-	background:url("../img/nav-bg.png") no-repeat 20px -30px;
+	background:url("../img/nav-bg.png") 20px -30px;
 	min-height:100%;
 	width:100%;
 	position:relative;
