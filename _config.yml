@@ -23,7 +23,7 @@ author :
 #
 contact :
   e-mail : maximus.tann@gmail.com
-  Github : https://maximustann.github.com
+  Github : https://github.com/maximustann
   
 # Links showed on the footer
 #
@@ -125,11 +125,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : simpleyyt
+    provider : disqus
     disqus :
-      short_name : simpleyyt
+      short_name : maximustanngithubio
     livefyre :
       site_id : 123
     intensedebate :
