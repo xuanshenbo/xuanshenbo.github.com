@@ -104,10 +104,8 @@ mount /dev/sdxR /mnt
 
 The general procedure is to first create the mount point, and then mount the partition to it.
 
-```
-mkdir -p /mnt/home
-mount /dev/sdxB /mnt/home
-```
+    mkdir -p /mnt/home
+    mount /dev/sdxB /mnt/home
 
 
 #Connect to the Internet<a id="Internet"></a>
