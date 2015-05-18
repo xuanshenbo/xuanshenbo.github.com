@@ -3,7 +3,7 @@ layout: post
 title: "Arch Linux Installation Guild"
 description: ""
 category: Unix
-tags: [Unix]
+tags: []
 ---
 {% include JB/setup %}
 

@@ -1,6 +1,6 @@
 <script>
   (function() {
-    var cx = '{{ site.search.gcse.cx }}';
+	var cx = '{{ site.search.gcse.cx }}';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
