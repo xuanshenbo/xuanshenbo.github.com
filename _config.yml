@@ -22,13 +22,13 @@ author :
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : maximus.tann@gmail.com
+  e-mail : mailto:maximus.tann@gmail.com
   Github : https://github.com/maximustann
   
 # Links showed on the footer
 #
 links :
-  Max's Blog : maximustann.github.io
+    Max's Blog : http://maximustann.github.io
 
 # The search engine. Only support google custom search engine.
 #
