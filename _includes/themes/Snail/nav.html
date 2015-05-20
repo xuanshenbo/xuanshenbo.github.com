@@ -25,18 +25,19 @@
 			{% assign pages_list = nil %}
 			{% assign group = nil %}
 		</ul>
-		<form id="nav-search" method="GET" action="{{ site.JB.search_path }}">
-			<div id="search-right-pix">
-				<div id="search-left-pix">
-					<div id="search-center-pix">
-						<div id="search-icon-pix"></div>
-						<input name="query" type="text" placeholder="Search">
-					</div>
-				</div>
-			</div>
+		<!--<form id="nav-search" method="GET" action="{{ site.JB.search_path }}">-->
+		<!--<div id="search-right-pix">-->
+		<!--<div id="search-left-pix">-->
+		<!--<div id="search-center-pix">-->
+		<!--<div id="search-icon-pix"></div>-->
+		<!--<input name="query" type="text" placeholder="Search">-->
+		<!--</div>-->
+		<!--</div>-->
+		<!--</div>-->
+		<!--</form>-->
+		<form id="nav-search" action="search.html" width="80">
+			<input type="submit" value="Search">
 		</form>
-		
-		
 	</div>
 	<div id="nav-r">
 	</div>
