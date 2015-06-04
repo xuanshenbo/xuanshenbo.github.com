@@ -3,9 +3,11 @@ layout: post
 title: "model_lecture1"
 description: ""
 category: 
-tags: []
+tags: [Model]
 ---
 {% include JB/setup %}
+
+<!--more-->
 # Model Thinking
 ### Lecture One
 ####Sorting and Peer Effects
