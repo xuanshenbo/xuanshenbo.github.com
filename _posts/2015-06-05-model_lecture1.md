@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "model_lecture1"
+title: "model_lecture"
 description: ""
 category: 
 tags: [Model]
