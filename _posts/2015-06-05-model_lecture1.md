@@ -10,11 +10,11 @@ tags: [Model]
 <!--more-->
 # Model Thinking
 ### Lecture One
-####Sorting and Peer Effects
+#### Sorting and Peer Effects
 
-**Sorting: **When you looking at this map, the segregation is quite clear. This shows people choose to live with people a lot like they do. 
+** Sorting: ** When you looking at this map, the segregation is quite clear. This shows people choose to live with people a lot like they do. 
 
-**Peer Effects:** We change our behaviors to match other people. For example, if you hang out with a group of people who smoke, you will probably start smoking. 
+** Peer Effects:** We change our behaviors to match other people. For example, if you hang out with a group of people who smoke, you will probably start smoking. 
 
 So, these forces make people to choose where they live and what kind of 
 people they wanna to be, to believe what other people believe, to act like other people. 
@@ -28,7 +28,7 @@ So, we are going to construct some models to understand these behaviors.
 3.Standing Ovation
 
 ---
-####Two Model Categories
+#### Two Model Categories
 Equation Based Model
 
 Score = 50 + 5 Hours
@@ -41,10 +41,10 @@ Agent Based Model
 3.outcomes
 
 ---
-####Schelling
+#### Schelling
 Schelling try to understand segregation.
 ![segregation](/work/maximustann.github.com/_posts/pics/ny_seg.png) 
-Schelling construct an **Agent based model**
+Schelling construct an ** Agent based model **
 Schelling's model is about people choosing where to live.
 He simplified the problem:
 Each person now thinking about should I stay or should I move.
