@@ -15,6 +15,8 @@ tags: [Model]
 
 ####Sorting and Peer Effects
 
+![Imgur](http://i.imgur.com/TvtYxb7.png?1)
+
 **Sorting:** When you looking at this map, the segregation is quite clear. This shows people choose to live with people a lot like they do. 
 
 **Peer Effects:** We change our behaviors to match other people. For example, if you hang out with a group of people who smoke, you will probably start smoking. 
