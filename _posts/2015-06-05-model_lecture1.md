@@ -79,9 +79,13 @@ stronger segregation there will be until the threshold "hits" on a upper bound t
 
 
 **Tipping phenomenon**
+
 1. Exodus Tip
+
 One person leave the system causes other people leave.
+
 2. Genesis Tip
+
 One person come in, causes other people leave.
 
 One of the important thing that this model tells us is the macro behavior does not consist with what people want. 
