@@ -89,3 +89,43 @@ One person leave the system causes other people leave.
 One person come in, causes other people leave.
 
 One of the important thing that this model tells us is the macro behavior does not consist with what people want. 
+
+---
+## Measurement
+### Index Similarity
+
+![Imgur](http://i.imgur.com/N0sN0nd.png)
+
+$Rich = 12 \times 10 + 6 \times 5 = 150 $
+
+$Poor = 6 \times 10 + 4 \times 5 = 90$
+
+$BlueIndex = \mid \frac{10}{150} - \frac{0}{90} \mid = \frac{1}{15}$
+
+$YellowIndex = \mid \frac{0}{150} - \frac{10}{90} \mid = \frac{1}{9}$   
+ 
+$GreenIndex = \mid \frac{5}{150} - \frac{5}{90} \mid = \frac{1}{45}$
+
+$Total = 12 \times \frac{1}{15} + 6 \times \frac{1}{9} + 6 \times \frac{1}{45} = \frac{72}{45}$
+
+Normally, we divide the result by 2 to scale it down 
+
+$\frac{Total}{2}= \frac{72}{90} = 0.8 $
+
+Therefore, the segregation is 80%.
+
+---
+
+###Peer Effects
+
+####Granovetter
+
+Model
+
+1. N Individuals
+
+2. Each has a Threshold
+	-  $T_j$ for person j
+	- Join if $T_j$ others join
+
+
