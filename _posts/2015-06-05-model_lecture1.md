@@ -74,7 +74,8 @@ a person live in X, and No.3 is blank. Red represents rich people, grey represen
 
 This is called **Threshold based rule**. Based on this threshold, he decided whether move or stay.
 
-The empirical experiments show that the higher the threshold, the segregation there will be until the threshold "hits" on a upper bound that the algorithms will never converge, it just running forever because it never satisfied the requirements.
+The empirical experiments show that the higher the threshold, the 
+stronger segregation there will be until the threshold "hits" on a upper bound that the algorithms will never converge, it just running forever because it never satisfied the requirements.
 
 
 **Tipping phenomenon**
