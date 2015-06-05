@@ -38,12 +38,13 @@ So, we are going to construct some models to understand these behaviors.
 
 ####Two Model Categories
 
-Equation Based Model
+**Equation Based Model**
 
-Score = 50 + 5 Hours
+    Score = 50 + 5 Hours
+
 This is a linear model.
 
-Agent Based Model
+**Agent Based Model**
 
 1. individuals (people, countries ...)
 
