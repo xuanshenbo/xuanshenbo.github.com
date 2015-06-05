@@ -57,14 +57,14 @@ Agent Based Model
 
 Schelling try to understand segregation.
 
-[Segregation](http://i.imgur.com/EQni893.png)
+![Segregation](http://i.imgur.com/EQni893.png)
 
 Schelling construct an **Agent based model**
 Schelling's model is about people choosing where to live.
 He simplified the problem:
 Each person now thinking about should I stay or should I move.
 
-[Checkerboard](http://i.imgur.com/ZMP6ubs.png)
+![Checkerboard](http://i.imgur.com/ZMP6ubs.png)
 
 For example, the person has been allocated on a checker board, 
 a person live in X, and No.3 is blank. Red represents rich people, grey represents poor people. So, now the person lived in X is thinking about 3/7 neighbors are like me. Should I stay or leave?
