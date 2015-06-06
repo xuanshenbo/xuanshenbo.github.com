@@ -182,11 +182,11 @@ Standing Ovations is very suitable to let people thinking about rule based domai
 5. Subsequent Rule
 	- Stand if more X% stand
 
-**Claim 1: ** Higher Quality $Q$, Stand if $Q + error > T$ 
+**Claim 1:** Higher Quality $Q$, Stand if $Q + error > T$ 
  
-**Claim 2: ** Lower Threshold $T$, more people stand, if $Q + error > T$
+**Claim 2:** Lower Threshold $T$, more people stand, if $Q + error > T$
 
-**Claim 3: ** Lower X, more ovations. Stand if more than X%
+**Claim 3:** Lower X, more ovations. Stand if more than X%
 
  Signal: $S = Q + E$
 
