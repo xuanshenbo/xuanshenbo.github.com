@@ -128,4 +128,140 @@ Model
 	-  $T_j$ for person j
 	- Join if $T_j$ others join
 
+If you have 5 friends, the threshold for each of them willing to buy a purple hat is:
+ 
+    0 1 1 1 2
 
+0 means he is not influenced by other people, just wanna buy a purple hat.
+
+1 means if only one of his friend get a purple hat, he will also get one
+
+In the end, all people wearing purple hat.
+
+Another example:
+
+If you have 5 friends,
+
+    0 1 2 3 4
+
+In the end, all people wearing purple hat, but actually not so many people really want one. This is tail wagged the dog.
+
+Collection Action
+
+More Likely if:
+
+- Lower Thresholds
+
+- More Variation in thresholds
+
+That's why it is very hard to predict collective behavior, because you not only need to know the average threshold, you also need to know the distributions, and how people connect to each other.
+
+---
+
+Standing Ovations
+
+After a show, Do I stand up or not? You don't have much time to decide, 
+you have a short time to make a judgement. This simplied this problem.
+
+Standing Ovations is very suitable to let people thinking about rule based domain.
+
+- Peer Effect: other people stand, you stand
+
+- Information: other people seems know more information, you learn from them
+
+
+1. Threshold to Stand: $T$
+
+2. Quality: $Q$
+
+3. Signal: $S = Q + E$
+
+4. Initial Rule
+	- If $S > T$,  Stand
+
+5. Subsequent Rule
+	- Stand if more X% stand
+
+**Claim 1: ** Higher Quality $Q$, Stand if $Q + error > T$ 
+ 
+**Claim 2: ** Lower Threshold $T$, more people stand, if $Q + error > T$
+
+**Claim 3: ** Lower X, more ovations. Stand if more than X%
+
+ Signal: $S = Q + E$
+
+- $E = Error$
+
+- $E = Diversity$ People could have different preference or taste
+
+Example:
+
+    1000 people
+    T = 60
+    Q = 50
+    T < Q Nobody will stand up
+
+    E in [-50, +50]
+
+![Imgur](http://i.imgur.com/pmFNIEv.jpg)
+
+So, large variation, more people will stand up
+
+So, in what situation, the variation is high?
+
+* Audience
+
+	- Diverse
+
+	- Unsophisticated
+
+* Performance
+
+	- Multidimensional
+
+	- Complex
+
+1. Higher Quality
+
+2. Lower Threshold
+
+3. Larger Peer Effects
+
+4. More Variation
+
+Two more facts could influence this model:
+
+5. Use Celebrities/Academic (People in front don't aware other people,
+						People in back knows everyone, but nobody see them)
+6. Large group
+
+
+####Where can we apply the model?
+
+Collective Action
+
+Academic Performance
+
+Urban Renewal
+
+Fitness/Health
+
+####Identification
+
+Schelling or Standing Ovation
+
+Homophily or Peer Effect?
+
+Sorting:
+
+    AABBAA
+
+    BBABBA
+
+We will observer Bs move to second group
+
+Peer Effects:
+
+We will observer Bs turn into A.
+
+However, if we only take a snapshot, there is no way to distinguish to identify it. We need more data, dynamic data. On the other hand, it guide us to collect the data.
