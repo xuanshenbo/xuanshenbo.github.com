@@ -237,7 +237,7 @@ Two more facts could influence this model:
 
 ---
 
-#### Where can we apply the model?
+###Where can we apply the model?
 
 Collective Action
 
@@ -249,7 +249,7 @@ Fitness/Health
 
 ---
 
-#### Identification
+###Identification
 
 Schelling or Standing Ovation
 
