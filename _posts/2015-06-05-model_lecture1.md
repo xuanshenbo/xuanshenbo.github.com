@@ -235,8 +235,9 @@ Two more facts could influence this model:
 						People in back knows everyone, but nobody see them)
 6. Large group
 
+---
 
-####Where can we apply the model?
+#### Where can we apply the model?
 
 Collective Action
 
@@ -246,7 +247,9 @@ Urban Renewal
 
 Fitness/Health
 
-####Identification
+---
+
+#### Identification
 
 Schelling or Standing Ovation
 
