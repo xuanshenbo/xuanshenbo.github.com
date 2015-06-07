@@ -2,7 +2,7 @@
 layout: post
 title: "Information Retrieval 01 Summary"
 description: ""
-category:"IR"
+category: IR
 tags: [IR]
 ---
 {% include JB/setup %}
