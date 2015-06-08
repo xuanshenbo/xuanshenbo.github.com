@@ -197,3 +197,7 @@ recall requires comparing the set of retrieved documents with entire collection.
 In web search, the focus is typicall on obtaining high precision by finding as many relevant documents in the top $n$ results. However,
 there are certain domain, the focus is on find all relevant document through an exhaustive-search, alternative recall-oriented 
 measures can be employed: $e$ measure and $f$ measure.
+
+**Rank-based measures:** Based on evaluating ranked retrieval results where not only the number of relevant documents, but also
+returning relevant documents higher in the ranked lists. A common way to evaluate ranked documents is to compute precision at various
+levels of recall.
