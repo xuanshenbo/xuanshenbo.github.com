@@ -169,7 +169,7 @@ $Recall = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved docume
 
 2. **Precision** is the fraction of retrieved documents that are relevant to the query.
 
-$Precision = \frac{\mid \text{{relevant documents}}\} \cap \text{{retrieved documents}}\} \mid}{\mid \text{{retrieved documents}} \mid}$
+$Precision = \frac{\mid \text{relevant documents}\} \cap \text{retrieved documents}\} \mid}{\mid \text{retrieved documents} \mid}$
 
 ###How to evaluate two IR systems ?
 
