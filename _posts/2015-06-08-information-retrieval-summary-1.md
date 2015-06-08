@@ -111,7 +111,13 @@ Example:
 
 **Cosine Similarity:** Similarity is determined by distance in a vector space.
 
-Cosine Similarity = $\frac{\sum_{i=1}^{n} X_i Y_i}{{\sqrt{\sum_{i=1}^{n}X_i^2}} \sqrt{\sum_{i=1}^{n}Y_i^2}}$
+Cosine Similarity = $\frac{
+							\sum_{i=1}^{n} X_i Y_i
+							}
+						{
+							\sqrt{\sum_{i=1}^{n}X_i^2}
+							\sqrt{\sum_{i=1}^{n}Y_i^2}
+						}$
 
 ---
 
