@@ -152,7 +152,7 @@ $TF: \frac{1}{6}, \frac{2}{6}, \frac{2}{6}, \frac{1}{6}$
 
 $IDF$ of D1:
 
-$IDF: \log(\frac{4}{4}), \log({4}{3}), \log({4}{3}), \log({4}{2})$
+$IDF: \log(\frac{4}{4}), \log(\frac{4}{3}), \log(\frac{4}{3}), \log(\frac{4}{2})$
 
 $Weights = IDF \times TF$
 
