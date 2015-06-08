@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Information Retrieval 01 Summary"
+title: "Intelligent Agent 01 Summary"
 description: ""
-category: IR
-tags: [IR]
+category: IA
+tags: [IA]
 ---
 {% include JB/setup %}
 
@@ -11,7 +11,7 @@ tags: [IR]
 <!--more-->
 
 
-#Information Intelligent Summary
+#Intelligent Agent Summary
 
 ##Basic Concepts:
 
