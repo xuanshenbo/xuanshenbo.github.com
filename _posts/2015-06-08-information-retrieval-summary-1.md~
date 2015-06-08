@@ -157,5 +157,17 @@ $IDF: \log(\frac{4}{4}), \log(\frac{4}{3}), \log(\frac{4}{3}), \log(\frac{4}{2})
 
 $Weights = IDF \times TF$
 
+---
 
+##Evaluation
+
+###Evaluation Criteria
+
+1. **Recall** is the fraction of the documents that are relevant to the query that are successfully retrieved
+
+$Recall = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{relevant documents\}\mid}$
+
+2. **Precision** is the fraction of retrieved documents that are relevant to the query.
+
+$Precision = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{retrieved documents\}\mid}$$
 

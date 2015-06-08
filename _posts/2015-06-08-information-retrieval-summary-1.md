@@ -157,5 +157,31 @@ $IDF: \log(\frac{4}{4}), \log(\frac{4}{3}), \log(\frac{4}{3}), \log(\frac{4}{2})
 
 $Weights = IDF \times TF$
 
+---
+
+##Evaluation
+
+###Evaluation Criteria
+
+1. **Recall** is the fraction of the documents that are relevant to the query that are successfully retrieved
+
+$Recall = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{relevant documents\}\mid}$
+
+2. **Precision** is the fraction of retrieved documents that are relevant to the query.
+
+$Precision = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{retrieved documents\}\mid}$$
+
+###How to evaluate two IR systems ?
+
+Traditionally, one uses a "test collection" composed of three entities:
+
+1. a set of queries (or "information needs")
+2. a target dataset (where to look for items that will satisfy the information needs)
+3. a set of relevant assessments (the items satisfy the information needs)
+
+Based on this test collection one can compare the resuls of a query using two different IR systems.
+
+Systems effectiveness: evaluation measures
+
 
 
