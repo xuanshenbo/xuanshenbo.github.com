@@ -169,7 +169,7 @@ $Recall = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved docume
 
 2. **Precision** is the fraction of retrieved documents that are relevant to the query.
 
-$Precision = \frac{\mid \text{relevant documents}\} \cap \text{retrieved documents}\} \mid}{\mid \text{retrieved documents} \mid}$
+$Precision = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved documents}\} \mid}{\mid \{\text{retrieved documents}\}\mid}$
 
 ###How to evaluate two IR systems ?
 
@@ -181,7 +181,19 @@ Traditionally, one uses a "test collection" composed of three entities:
 
 Based on this test collection one can compare the resuls of a query using two different IR systems.
 
-Systems effectiveness: evaluation measures
+**Systems effectiveness: evaluation measures**
 
+**Set-based measures:** documents in the ranking are treated as unique and the ordering of result is ignored.
 
+1. Precision
 
+2. Recall 
+
+Precision and Recall hold an approximate inverse relationship. But it is not always the case.
+
+Compared with other measures, Precision is simple to compute because one only considers the set of retrieved documents. However to compute
+recall requires comparing the set of retrieved documents with entire collection. Which is impossible in many cases (web search).
+
+In web search, the focus is typicall on obtaining high precision by finding as many relevant documents in the top $n$ results. However,
+there are certain domain, the focus is on find all relevant document through an exhaustive-search, alternative recall-oriented 
+measures can be employed: $e$ measure and $f$ measure.
