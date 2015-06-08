@@ -30,6 +30,15 @@ input (typed into the search query area and sometimes other type of data), and e
 Re-ranking search results are also called **Search results filtering/adaptation** 
 are based on personal preference, therefore, the data type can be various.
 
+Personal information gathering:
+
+1. **Implicit:** to gather data about the user in an implicit, non-invasive way
+	a click-through data
+	b dwell time on page
+	c bookmarks & tags
+
+2. **Explicit:** user supplied information
+
 Typically use supervised machine learning:
 
 1. Relevant(Binary: Yes or No)
@@ -83,11 +92,4 @@ User rank all search results $\Rightarrow$ ARR and Top-N precision. There is no 
 
 
 
-Personal information gathering:
 
-1. **Implicit:** to gather data about the user in an implicit, non-invasive way
-	a click-through data
-	b dwell time on page
-	c bookmarks & tags
-
-2. **Explicit:** user supplied information
