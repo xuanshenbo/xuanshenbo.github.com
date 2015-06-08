@@ -165,11 +165,11 @@ $Weights = IDF \times TF$
 
 1. **Recall** is the fraction of the documents that are relevant to the query that are successfully retrieved
 
-$Recall = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{relevant documents\}\mid}$
+$Recall = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved documents}\} \mid}{\mid \{\text{relevant documents}\}\mid}$
 
 2. **Precision** is the fraction of retrieved documents that are relevant to the query.
 
-$Precision = \frac{\mid \{relevant documents\} \cap \{retrieved documents\} \mid}{\mid \{retrieved documents\}\mid}$$
+$Precision = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved documents}\} \mid}{\mid \{\text{retrieved documents}\}\mid}$
 
 ###How to evaluate two IR systems ?
 
