@@ -90,8 +90,31 @@ Quantitative & Qualitative
 
 User rank all search results $\Rightarrow$ ARR and Top-N precision. There is no qualitative data collected in this experiment.
 
+---
 
+###PageRank
 
+**Terms**
+
+    Forward links: a hyperlink to a page 
+    Back links: a hyperlink to the current page
+
+PageRank is based on two hypothesis:
+
+1. **Quantitative hypothesis:** More back links, more important the page
+
+2. **Qualitative hypothesis:** The link from highly ranked Page has high weight
+
+**Initial Stage:** Built a network based on links. Assign same PageRank value to each page.
+
+**Update Stage:** Every Page divide its PageRank value equally by the number of its forward links. Therefore, every link has its weight.
+
+Because there are some dangling links which has 0 forward link. The PageRank formula makes use of damping factor $q$. The meaning of 
+$q$ is the probability of a user continue browsing from current page. $1 - q$ is the probability that user stop browsing.
+
+PageRank formula: 
+
+$PR = \sum_{n} backlink's weight \times q \times (1 - q)$
 
 
 

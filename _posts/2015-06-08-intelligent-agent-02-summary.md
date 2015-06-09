@@ -114,7 +114,7 @@ $q$ is the probability of a user continue browsing from current page. $1 - q$ is
 
 PageRank formula: 
 
-$PR = \sum_{n} backlink's weight \times q \times (1 - q)$
+$PR = \sum_{n} \text{backlink's weight} \times q \times (1 - q)$
 
 
 
