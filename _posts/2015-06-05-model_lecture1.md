@@ -11,9 +11,9 @@ tags: [Model]
 
 #Model Thinking
 
-###Lecture One
+##Lecture One
 
-####Sorting and Peer Effects
+###Sorting and Peer Effects
 
 ![Imgur](http://i.imgur.com/TvtYxb7.png?1)
 
@@ -118,9 +118,8 @@ Therefore, the segregation is 80%.
 
 ###Peer Effects
 
-####Granovetter
+**Granovetter**
 
-Model
 
 1. N Individuals
 
@@ -158,7 +157,7 @@ That's why it is very hard to predict collective behavior, because you not only 
 
 ---
 
-Standing Ovations
+**Standing Ovations**
 
 After a show, Do I stand up or not? You don't have much time to decide, 
 you have a short time to make a judgement. This simplified this problem.
