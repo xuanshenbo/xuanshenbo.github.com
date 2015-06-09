@@ -55,6 +55,15 @@ Typically use supervised machine learning:
 	+ SVM
 	+ ...
 
+
+---
+
+###Disadvantages for Personalised Search
+
+1. The personalised search narrows the search space. Therefore, it might limits the diversity of search result.
+
+2. Privacy issues. Selling users' profile or preference to other companies.
+
 ---
 
 ##Personalised Mobile Search Engine

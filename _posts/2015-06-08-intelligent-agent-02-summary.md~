@@ -55,6 +55,15 @@ Typically use supervised machine learning:
 	+ SVM
 	+ ...
 
+
+---
+
+###Disadvantages for Personalised Search
+
+1. The personalised search narrows the search space. Therefore, it might limits the diversity of search result.
+
+2. Privacy issues. Selling users' profile or preference to other companies.
+
 ---
 
 ##Personalised Mobile Search Engine
@@ -114,7 +123,7 @@ $q$ is the probability of a user continue browsing from current page. $1 - q$ is
 
 PageRank formula: 
 
-$PR = \sum_{n} backlink's weight \times q \times (1 - q)$
+$PR = \sum_{n} \text{backlink's weight} \times q \times (1 - q)$
 
 
 
