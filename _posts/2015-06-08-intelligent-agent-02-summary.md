@@ -66,12 +66,12 @@ Typically use supervised machine learning:
 
 ---
 
-##Personalised Mobile Search Engine
+###Personalised Mobile Search Engine
 
 **Motivation:** It's hard for user to type on Mobile. So the query can
 be short. PMSE aims to tailor search result to user's preference.
 
-###Terms
+####Terms
 
 1. **Ontology:** Formal naming, defining and ordering of the entities in a 
 given domain, and their interrelationships.
