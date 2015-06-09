@@ -55,7 +55,9 @@ Algorithms to measure user similarity or item similarity:
 2. Pearson correlation
 
 ---
+
 ###Weakness
+
 ---
 
 Collaborative filtering approaches often suffer from three problems:
@@ -78,7 +80,7 @@ systems. It's effective and easy to implement.
 
 Typical examples of this approach are neighbour-based collaborative filtering and item-based/user-based top-N recommendations.
 
-####User-based algorithms
+**User-based algorithms**
 
 The first step of the algorithm is to obtain the user history profile, which can be represented as a ratings matrix, each entry is the
 rate of a user given to an item. A ratings matrix consists of a table where each row represents a user, each column represented an item.
