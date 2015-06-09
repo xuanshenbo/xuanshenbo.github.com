@@ -7,6 +7,7 @@ tags: [IA]
 ---
 {% include JB/setup %}
 
+Basic concepts.
 
 <!--more-->
 
