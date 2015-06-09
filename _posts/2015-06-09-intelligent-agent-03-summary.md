@@ -16,7 +16,6 @@ Information Extraction
 Information Extraction is the task of automatically extracting structured information from a unstructured and semi-structured documents.
 
 ##Approaches
-
 ---
 
 ###Manually crafted patterns
