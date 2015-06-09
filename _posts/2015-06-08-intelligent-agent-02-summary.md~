@@ -66,12 +66,12 @@ Typically use supervised machine learning:
 
 ---
 
-##Personalised Mobile Search Engine
+###Personalised Mobile Search Engine
 
 **Motivation:** It's hard for user to type on Mobile. So the query can
 be short. PMSE aims to tailor search result to user's preference.
 
-###Terms
+####Terms
 
 1. **Ontology:** Formal naming, defining and ordering of the entities in a 
 given domain, and their interrelationships.
@@ -117,6 +117,9 @@ PageRank is based on two hypothesis:
 **Initial Stage:** Built a network based on links. Assign same PageRank value to each page.
 
 **Update Stage:** Every Page divide its PageRank value equally by the number of its forward links. Therefore, every link has its weight.
+
+$Link weight = \frac{PageRank}{\| forward links \|}$
+
 
 Because there are some dangling links which has 0 forward link. The PageRank formula makes use of damping factor $q$. The meaning of 
 $q$ is the probability of a user continue browsing from current page. $1 - q$ is the probability that user stop browsing.

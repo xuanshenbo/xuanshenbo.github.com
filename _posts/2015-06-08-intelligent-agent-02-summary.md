@@ -118,6 +118,9 @@ PageRank is based on two hypothesis:
 
 **Update Stage:** Every Page divide its PageRank value equally by the number of its forward links. Therefore, every link has its weight.
 
+$Link weight = \frac{PageRank}{\| forward links \|}$
+
+
 Because there are some dangling links which has 0 forward link. The PageRank formula makes use of damping factor $q$. The meaning of 
 $q$ is the probability of a user continue browsing from current page. $1 - q$ is the probability that user stop browsing.
 
