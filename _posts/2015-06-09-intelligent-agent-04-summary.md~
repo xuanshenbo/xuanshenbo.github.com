@@ -7,6 +7,8 @@ tags: [IA]
 ---
 {% include JB/setup %}
 
+#Intelligent Agent Summary
+
 Recommender System
 
 
@@ -22,8 +24,6 @@ Recommender System
 <!--more-->
 
 ---
-
-#Intelligent Agent Summary
 
 
 ##Recommender System Overview <a id="overview"></a>
