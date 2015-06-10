@@ -7,8 +7,6 @@ tags: [IA]
 ---
 {% include JB/setup %}
 
-#Intelligent Agent Summary
-
 Recommender System
 
 
