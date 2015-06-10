@@ -11,10 +11,20 @@ Recommender System
 
 <!--more-->
 
+1. [Recommender System Overviewa](#overview)
+2. [Collaborative filtering](#collaborative)
+..* [Memory-based](#memory)
+	..* [User-based](#user)
+	..* [Item-based](#item)
+..* [Model-based](#model)
+3. [Content-based filtering](#content)
+		
+---
+
 #Intelligent Agent Summary
 
 
-##Recommender System
+##Recommender System Overview <a id="overview"></a>
 ---
 
 Recommender Systems provide a lot of recommendations in one of two ways:
@@ -38,7 +48,7 @@ against the listening behavior of ther users. **Collaborative Filtering**
 
 ---
 
-###Collaborative filtering
+###Collaborative filtering <a id="collaborative"></a>
 
 Collaborative filtering methods are based on collecting and analyzing a large amount of information on user's behaviors, activities or preferences and predicting what users will like based 
 on their similarity to other users.
@@ -73,14 +83,14 @@ algorithms do not work well.
 
 ---
 
-###Memory-based
+###Memory-based <a id="memory"></a>
 
 This approach uses user rating data to compute the similarity between users or items. This was an early approach userd in many commercial
 systems. It's effective and easy to implement.
 
 Typical examples of this approach are neighbour-based collaborative filtering and item-based/user-based top-N recommendations.
 
-**User-based algorithms**
+**User-based algorithms** <a id="user"></a>
 
 The first step of the algorithm is to obtain the user history profile, which can be represented as a ratings matrix, each entry is the
 rate of a user given to an item. A ratings matrix consists of a table where each row represents a user, each column represented an item.
@@ -91,20 +101,20 @@ such as Pearson correlation.
 The last step is to calculate the items rating (Prediction). The rating is computed by a weighted average of 
 the ratings by the neighbours.
 
-**Item-based algorithms**
+**Item-based algorithms** <a id="item"></a>
 
 Same matrix with user-based matrix. But the critical step is to compute the similarity between items. And get top-N similar items.
 The prediction is then computed by taking a weighted average of the target user's ratings on these similar items.
 
 
-###Model-based
+###Model-based <a id="model"></a>
 
 Models are developed using dataming, machine learning algorithms to find patterns based on training data, such as **Bayesian network, 
 clustering, and rule-based approaches**.
 
 ---
 
-###Content-based
+###Content-based <a id="content"></a>
 
 Content-based filtering methods on a description of the item and a profile of the user's preferences. 
 In a content-based Recommender system, keywords are used to describe the items. A user's profile is built to indicate the type of 
