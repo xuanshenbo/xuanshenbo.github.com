@@ -13,10 +13,10 @@ Recommender System
 
 1. [Recommender System Overviewa](#overview)
 2. [Collaborative filtering](#collaborative)
-..* [Memory-based](#memory)
-	..* [User-based](#user)
-	..* [Item-based](#item)
-..* [Model-based](#model)
+  * [Memory-based](#memory)
+    * [User-based](#user)
+    * [Item-based](#item)
+  * [Model-based](#model)
 3. [Content-based filtering](#content)
 		
 ---
