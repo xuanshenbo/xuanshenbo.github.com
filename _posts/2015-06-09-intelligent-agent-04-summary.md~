@@ -91,7 +91,7 @@ such as Pearson correlation.
 The last step is to calculate the items rating (Prediction). The rating is computed by a weighted average of 
 the ratings by the neighbours.
 
-####Item-based algorithms
+**Item-based algorithms**
 
 Same matrix with user-based matrix. But the critical step is to compute the similarity between items. And get top-N similar items.
 The prediction is then computed by taking a weighted average of the target user's ratings on these similar items.
@@ -103,6 +103,28 @@ Models are developed using dataming, machine learning algorithms to find pattern
 clustering, and rule-based approaches**.
 
 ---
+
+###Content-based
+
+Content-based filtering methods on a description of the item and a profile of the user's preferences. 
+In a content-based Recommender system, keywords are used to describe the items. A user's profile is built to indicate the type of 
+item this user likes. These algorithms try to recommend items that one similar to those a user liked in the past.
+
+To create user profile, the system most focus on two types of information:
+
+1. A model of the user's preferences
+
+2. A history of the user's interaction with the Recommender system 
+
+These methods use an item profile (features) characterizing the item within the system. The system creates a 
+content-based profile of users based on a weighted vector of item features.
+
+A key issue with content-based filtering is whether the system is able to learn user preferences from user's 
+actions regarding one content source and user them across other content type.
+
+---
+
+
 
 ###Model
 
