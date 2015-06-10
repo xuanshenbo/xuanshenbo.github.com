@@ -2,8 +2,8 @@
 layout: post
 title: "Intelligent Agent 05 Summary"
 description: ""
-category: 
-tags: []
+category: IA
+tags: [IA]
 ---
 {% include JB/setup %}
 
