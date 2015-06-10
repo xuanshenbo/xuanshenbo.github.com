@@ -1,15 +1,20 @@
 ---
 layout: post
-title: "Model Lecture 01 Summary"
+title: "Model Thinking 01 Summary"
 description: ""
 category: "Model"
 tags: [Model]
 ---
 {% include JB/setup %}
 
+1. [Sorting](#sorting)
+  + [Schelling](#schelling)
+2. [Peer Effects](#peer)
+  + [Granovetter](#granovetter)
+  + [Standing Ovation](#standing)
+3. [Identification](#identification)
 <!--more-->
 
-#Model Thinking
 
 ##Lecture One
 
@@ -56,7 +61,10 @@ This is a linear model.
 
 ---
 
-###Schelling
+##Sorting <a id="sorting"></a>
+
+###Schelling <a id="schelling"></a>
+
 
 Schelling try to understand segregation.
 
@@ -116,9 +124,11 @@ Therefore, the segregation is 80%.
 
 ---
 
-###Peer Effects
+###Peer Effects <a id="peer"></a>
 
-**Granovetter**
+
+**Granovetter** <a id="granovetter"></a>
+
 
 
 1. N Individuals
@@ -157,7 +167,7 @@ That's why it is very hard to predict collective behavior, because you not only 
 
 ---
 
-**Standing Ovations**
+**Standing Ovations** <a id="standing"></a>
 
 After a show, Do I stand up or not? You don't have much time to decide, 
 you have a short time to make a judgement. This simplified this problem.
@@ -248,7 +258,7 @@ Fitness/Health
 
 ---
 
-###Identification
+###Identification <a id="identification"></a>
 
 Schelling or Standing Ovation
 
