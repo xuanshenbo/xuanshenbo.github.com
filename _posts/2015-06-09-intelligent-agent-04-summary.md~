@@ -9,9 +9,8 @@ tags: [IA]
 
 Recommender System
 
-<!--more-->
 
-1. [Recommender System Overviewa](#overview)
+1. [Recommender System Overview](#overview)
 2. [Collaborative filtering](#collaborative)
   * [Memory-based](#memory)
     1. [User-based](#user)
@@ -19,6 +18,9 @@ Recommender System
   * [Model-based](#model)
 3. [Content-based filtering](#content)
 		
+
+<!--more-->
+
 ---
 
 #Intelligent Agent Summary
