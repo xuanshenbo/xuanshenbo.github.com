@@ -16,8 +16,8 @@ Personalised Search
 
 ## Personalized Search
 
-Personalized search refers to search experiences that are tailored specifically to an individual's interests by incorporating information
-about the individual beyond specific query provided.
+> Personalized search refers to search experiences that are tailored specifically to an individual's interests 
+by incorporating information about the individual beyond specific query provided.
 
 Two general approaches to personalizing search results:
 
@@ -118,7 +118,7 @@ PageRank is based on two hypothesis:
 
 **Update Stage:** Every Page divide its PageRank value equally by the number of its forward links. Therefore, every link has its weight.
 
-$Link weight = \frac{PageRank}{\| forward links \|}$
+$Link weight = \frac{PageRank}{\parallel forward links \parallel}$
 
 
 Because there are some dangling links which has 0 forward link. The PageRank formula makes use of damping factor $q$. The meaning of 

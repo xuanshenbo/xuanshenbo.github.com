@@ -16,8 +16,8 @@ Personalised Search
 
 ## Personalized Search
 
-Personalized search refers to search experiences that are tailored specifically to an individual's interests by incorporating information
-about the individual beyond specific query provided.
+> Personalized search refers to search experiences that are tailored specifically to an individual's interests 
+by incorporating information about the individual beyond specific query provided.
 
 Two general approaches to personalizing search results:
 

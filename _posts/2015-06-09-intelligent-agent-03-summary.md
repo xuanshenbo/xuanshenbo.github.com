@@ -13,7 +13,7 @@ Information Extraction
 
 #Intelligent Agent Summary
 
-Information Extraction is the task of automatically extracting structured information from a unstructured and semi-structured documents.
+> Information Extraction is the task of automatically extracting structured information from a unstructured and semi-structured documents.
 
 ##Approaches
 ---
