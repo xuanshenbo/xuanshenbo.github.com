@@ -13,6 +13,7 @@ tags: [Model]
   + [Granovetter](#granovetter)
   + [Standing Ovation](#standing)
 3. [Identification](#identification)
+
 <!--more-->
 
 

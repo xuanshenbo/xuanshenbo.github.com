@@ -2,8 +2,8 @@
 layout: post
 title: "Explicit semantic analysis"
 description: ""
-category: 
-tags: []
+category: "IA"
+tags: [IA]
 ---
 {% include JB/setup %}
 
@@ -30,8 +30,40 @@ Wikipedia is a large and diverse knowledge base where each article can be consid
 concept is generated for each article. Each concept is then represented as a vector of the words which occur in the article, weighted
 by their tf-idf score.
 
+
+Every Wikipedia article represents a **concept**.
+
+![catwiki](http://i.imgur.com/5pwYXbV.jpg?1)
+
+> The **semantics** of a word is the vector of its **associations** with Wikipedia concepts.
+
+![vector](http://i.imgur.com/pqHMvyh.png?1)
+
 The meaning of any given word can then be represented as vector of that word's relatedness, or "association weighting" to the Wikipedia
 based concepts.
 
     "word" <concept1, weight1>, <concept2, weight2>, <concept3, weight3>...
+    "Mars" <planet, 0.90>, <Solar system, 0.85>, <jupiter, 0.30>...
+
+---
+
+###Explicit Semantic Analysis Documents
+
+Large documents are represented as a combination of individual word vectors derived from the words within a document.
+The resultant document vectors are known as "concept" vectors. 
+
+For example, a concept vector might look like this:
+
+    "Mars" <planet, 0.90>, <Solar system, 0.85>, <jupiter, 0.30>...
+    "explorer" <adventurer, 0.90>, <pioneer, 0.85> ...
+	...
+	...
+
+Graphically, we can represent a concept vector as the centroid of the word vectors it is composed of. The image below illustrates
+the centroid of a set of vectors.
+
+![centroid](http://i.imgur.com/Z3hbLfK.png)
+
+So, to compare how similar two phrases are we can create their concept vectors from their constituent word vectors and then
+compare the two, again using cosine similarity.
 
