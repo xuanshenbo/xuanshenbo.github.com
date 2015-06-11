@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arch Linux Installation Guild"
+title: "Arch Linux Installation Guide"
 description: ""
 category: Unix
 tags: [Unix]
