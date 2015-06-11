@@ -12,10 +12,10 @@ tags: [IA, Clustering]
 2. [Bottom up](#bottom)
   + [Agglomerative clustering](#agglomerative)
 3. [Distance Metrics](#distance)
-  1. [Single links](#single)
-  2. [Complete links](#complete)
-  3. [Average links](#average)
-  4. [Centroids](#centroids)
+  + [Single links](#single)
+  + [Complete links](#complete)
+  + [Average links](#average)
+  + [Centroids](#centroids)
 
 
 <!--more-->
@@ -51,7 +51,7 @@ a hierachy.
 We know how to split the data into fine number of clusters (e.g., number = 2).
 
 - run K-means algorithm on the original data $x_1 \dots x_n$
-- for each of the clustering clusters: $c_j j = 1 \dots k$
+- for each of the clustering clusters: $c_j$ $j = 1 \dots k$
   + recursively run K-means on points in $c_j$
 
 ![Imgur](http://i.imgur.com/eCvzEgL.png)
@@ -93,6 +93,7 @@ In this algorithm, you need to define a **distance metric** over clusters.
 dendrogram, you can cut the data into any granularity.
 
 ---
+
 ##Distance metrics <a id="distance"></a>
 
 ###Single Link <a id="single"></a>
