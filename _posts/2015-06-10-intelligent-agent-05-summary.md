@@ -9,9 +9,11 @@ tags: [IA]
 
 Text Representation
 
+1. [Bag of words](#bog)
+2. [N-grams](#ngram)
 <!--more-->
 
-##Bag of words
+##Bag of words <a id="bog"></a>
 
 ---
 
@@ -32,7 +34,7 @@ are totally ignored.
 
 ##Other Representation
 
-###N-grams model
+###N-grams model <a id="ngram"></a>
 
 > n-grams model is a contiguous sequence of $n$ items from a given sequence of text or speech. An n-grams model is a type of 
 probabilistic language model for predicting the next item in such a sequence in the form of a (n - 1) other **Markov Model**
