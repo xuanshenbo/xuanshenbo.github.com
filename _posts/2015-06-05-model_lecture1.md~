@@ -79,7 +79,7 @@ Each person now thinking about should I stay or should I move.
 ![Checkerboard](http://i.imgur.com/ZMP6ubs.png)
 
 For example, the person has been allocated on a checker board, 
-a person live in X, and No.3 is blank. Red represents rich people, grey represents poor people. So, now the person lived in X is thinking about 3/7 neighbors are like me. Should I stay or leave?
+a person live in X, and No.3 is blank. Red represents rich people, grey represents poor people. So, now the person lived in X is thinking about $\frac{3}{7}$ neighbors are like me. Should I stay or leave?
 
 This is called **Threshold based rule**. Based on this threshold, he decided whether move or stay.
 
