@@ -18,11 +18,11 @@ place centroids $C_i, \dots, C_n$ at **random** locations
 
 Repeat until convergence:
 
-	- for each point $x_i$
-	  * find nearest centroid $c_j$ (average min $D(x_i, c_j)$)
-	  * assign the point $x_i$ to cluster $j$
-	- for each cluster $j = 1 \dots k$: (recompute each cluster centroid position)
-	  * new centroid $c_j = $ mean of all points $x_i$ assigned to cluster $j$ in previous step.
+- for each point $x_i$
+  * find nearest centroid $c_j$ (average min $D(x_i, c_j)$)
+  * assign the point $x_i$ to cluster $j$
+- for each cluster $j = 1 \dots k$: (recompute each cluster centroid position)
+  * new centroid $c_j = $ mean of all points $x_i$ assigned to cluster $j$ in previous step.
 
 Example:
 
