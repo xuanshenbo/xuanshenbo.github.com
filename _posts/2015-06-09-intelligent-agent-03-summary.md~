@@ -9,16 +9,22 @@ tags: [IA]
 
 Information Extraction
 
+1. [Approaches](#approaches)
+  + [Manually crafted patterns](#man)
+  + [Machine learning Approaches](#mac)
+2. [Tasks and subtasks](#tasks)
+3. [Evaluation](#eva)
+
 <!--more-->
 
 #Intelligent Agent Summary
 
 > Information Extraction is the task of automatically extracting structured information from a unstructured and semi-structured documents.
 
-##Approaches
+##Approaches <a id="approaches"></a>
 ---
 
-###Manually crafted patterns
+###Manually crafted patterns <a id="man"></a>
 
 1. regular expression
 
@@ -32,14 +38,14 @@ Information Extraction
     [org][person][office]
     [org]in[loc]
 
-###Machine learning Approaches
+###Machine learning Approaches <a id="mac"></a>
 
 1. Label documents
 
 2. Learn rules and patterns
 
 
-###Tasks and subtasks
+###Tasks and subtasks <a id="tasks"></a>
 
 Typical subtasks of IE include:
 
@@ -61,7 +67,7 @@ Typical subtasks of IE include:
 
 	- Terminology extraction
 
-##Evaluation
+##Evaluation <a id="eva"></a>
 
 1. Model solutions as labelled facts
 

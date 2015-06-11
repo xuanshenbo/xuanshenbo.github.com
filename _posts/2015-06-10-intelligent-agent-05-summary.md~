@@ -11,6 +11,7 @@ Text Representation
 
 1. [Bag of words](#bog)
 2. [N-grams](#ngram)
+
 <!--more-->
 
 ##Bag of words <a id="bog"></a>
