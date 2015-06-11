@@ -2,7 +2,7 @@
 layout: post
 title: "K means clustering algorithm"
 description: ""
-category: "Clustering"
+category: "Clu"
 tags: [IA, Clustering]
 ---
 {% include JB/setup %}
