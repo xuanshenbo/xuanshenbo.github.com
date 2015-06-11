@@ -7,11 +7,14 @@ tags: [IA]
 ---
 {% include JB/setup %}
 
-
+1. [Feature Extraction](#extraction)
+2. [Feature Selection](#selection)
+  - [Filter](#filter)
+  - [Wrapper](#wrapper)
 
 <!--more-->
 
-##Feature Extraction
+##Feature Extraction <a id="extraction"></a>
 
 > Feature extraction is an attribute reduction process. Unlike feature selection, which ranks the existing attributes according to their
 predictive significance, feature extraction actually transforms the attributes. The transformed attributes, or **features**, are linear
@@ -26,16 +29,16 @@ their frequencies.
 
 ---
 
-##Feature Selection
+##Feature Selection <a id="selection"></a>
 
 Performance of text classification algorithms can be optimized by selecting only a subset of the discriminative terms.
 
-1. **Filter:**
+1. **Filter:** <a id="filter"></a>
    Filter model relies on general characteristics of the data to evaluate and select feature subsets without involving any mining 
    algorithm. Filter type methods select variables regardless of the model. It tend to select redundant variables because they does 
    not consider the relationships between variables.
 
-2. **Wrapper:**
+2. **Wrapper:** <a id="wrapper"></a>
    The wrapper model requires one predetermined mining algorithm and uses its performance as the evaluation criterion. It searches 
    for features better suited to the mining algorithm aimming to improve mining performance, but it also tends to be more 
    computationally expensive than the filter model.
