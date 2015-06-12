@@ -27,6 +27,7 @@ Personalised Search
     2. [Qualitative](#qualitative)
   + [Initial Stage](#initial)
   + [Update Stage](#update)
+
 <!--more-->
 
 
