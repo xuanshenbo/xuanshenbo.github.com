@@ -9,6 +9,24 @@ tags: [IA]
 
 Basic concepts.
 
+1. [Information Retrieval](#retrival)
+2. [Information Agent](#agent)
+  + [Percepts](#percepts)
+  + [Actions](#actions)
+  + [Goals](#goals)
+  + [Environment](#env)
+  + [Drawbacks](#drawbacks)
+3. [Search Engine](#search)
+  + [What search engines do?](#dowhat)
+  + [Indexing](#indexing)
+  + [Popular Retrieval models](#retrival)
+4. [Vector Space Model](#vector)
+  + [Cosine Similarity](#cosine)
+5. [Text representation](#representation)
+  + [Term weights](#tfidf)
+6. [Evaluation](#evaluation)
+
+
 <!--more-->
 
 
@@ -22,15 +40,15 @@ An agent is anything that can be viewed as perceiving its environment through se
 
 ---
 
-###Information Retrieval
+###Information Retrieval <a id="retrieval"></a>
 
 The field of information Retrival deals with the representation, storage, organization of, access of Information items.
 
 ---
 
-###Information Agent
+###Information Agent <a id="agent"></a>
 
-**Percepts:** what the agents perceives from its environment
+**Percepts:** what the agents perceives from its environment <a id="percepts"></a>
 
 1. User's query
 
@@ -40,7 +58,7 @@ The field of information Retrival deals with the representation, storage, organi
 
 4. Users' actions
 
-**Actions:** what the agent can do in its environment
+**Actions:** what the agent can do in its environment <a id="actions"></a>
 
 1. Follow links
 
@@ -50,15 +68,15 @@ The field of information Retrival deals with the representation, storage, organi
 
 4. Expand query
 
-**Goals:** what should the agent try to achieve
+**Goals:** what should the agent try to achieve <a id="goals"></a>
 
 Find the exact information, orgainse the Information
 
-**Environment:** what the agent acts and perceives within
+**Environment:** what the agent acts and perceives within <a id="env"></a>
 
 1. the Internet
 
-**Some technical drawbacks**
+**Some technical drawbacks** <a id="drawbacks"></a>
 
 - Different tasks, interfaces, formats are hard to combine
 
@@ -66,11 +84,11 @@ Find the exact information, orgainse the Information
 
 ---
 
-##Search Engine
+##Search Engine <a id="search"></a>
 
     Search a large collection documents to find the ones that satisfied an information need
 
-**What search Engines do:**
+**What search Engines do:** <a id="dowhat"></a>
 
 1. Indexing(Scape & Store)
 
@@ -80,13 +98,13 @@ Find the exact information, orgainse the Information
 
 4. Evaluation/feedback
 
-**Indexing:**
+**Indexing:** <a id="indexing"></a>
 
 1. Mannual indexing: libraries
 
 2. Automatic indexing: indexing program assigns keywords, pharases, other features
 
-**Popular Retrieval models:**
+**Popular Retrieval models:** <a id="retrival"></a>
 
 1. Exact Match: Boolean (Yes or No)
 
@@ -100,7 +118,7 @@ Find the exact information, orgainse the Information
 
 ---
 
-##Vector space model 
+##Vector space model <a id="vector"></a>
 
 Any text object can be represented by a term vector.
 
@@ -110,16 +128,17 @@ Example:
     D2: 0.8, 0.5, 0.6
     Query: 0.0, 0.2, 0.0
 
-**Cosine Similarity:** Similarity is determined by distance in a vector space.
+**Cosine Similarity:** Similarity is determined by distance in a vector space. <a id="cosine"></a>
 
 $Cosine Similarity = \frac{A \cdot B}{\parallel A \parallel \parallel B \parallel}$
 
 
 ---
 
-##Text representation
+##Text representation <a id="representation"></a>
 
-**Term weights** reflect the estimated importance of each term. The more often a word occurs in a document, the better that term is in describing what the document is about.
+**Term weights** reflect the estimated importance of each term. <a id="tfidf"></a>
+The more often a word occurs in a document, the better that term is in describing what the document is about.
 On the other hand, terms that appear in many documents in the collection are not very useful for distinguishing documents.
 
 
@@ -160,9 +179,9 @@ $Weights = IDF \times TF$
 
 ---
 
-##Evaluation
+##Evaluation <a id="evaluation"></a>
 
-###Evaluation Criteria
+###Evaluation Criteria <a id="criteria"></a>
 
 1. **Recall** is the fraction of the documents that are relevant to the query that are successfully retrieved
 
@@ -172,7 +191,7 @@ $Recall = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved docume
 
 $Precision = \frac{\mid \{\text{relevant documents}\} \cap \{\text{retrieved documents}\} \mid}{\mid \{\text{retrieved documents}\}\mid}$
 
-###How to evaluate two IR systems ?
+###How to evaluate two IR systems ? <a id="precisionrecall"></a>
 
 Traditionally, one uses a "test collection" composed of three entities:
 
