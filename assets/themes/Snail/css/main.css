@@ -1338,6 +1338,9 @@ footer .footer-940 .footer-col-cont .footer-nav-col h4 {
 	overflow:hidden;
 	text-indent:-9999px;
 }
+.MathJax {
+	font-size: 1.3em;
+}
 a.action-icon:hover {
 	opacity:0.7;
 }

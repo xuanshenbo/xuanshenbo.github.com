@@ -21,7 +21,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
 body {
-	background:url("../img/backg.png") no-repeat scroll right top, url("../img/bg-progress-.png") scroll left, url("../img/nav-bg.png") repeat scroll
+	background:url("../img/backg.png") no-repeat scroll right top, url("../img/nav-bg.png") repeat scroll
 	0% 0%;
 	line-height:1;
 
