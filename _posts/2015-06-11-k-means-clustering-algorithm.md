@@ -53,7 +53,7 @@ Repeat the steps until there is no items re-assign to a different cluster.
 
 1. Euclidean distance is used as a metric and variance is used as a measure of cluster scatter (Can not apply for categorical attributes).
 2. The number of clusters $k$ is an input parameter: an inappropriate choice of $k$ may yield poor results.
-3. Convergence to a local minimum may produce wrong results.3. Convergence to a local minimum may produce wrong results.3. Convergence to a local minimum may produce wrong results.
+3. Convergence to a local minimum may produce wrong results
 
 **Advantages:** K-means is fast.
 
