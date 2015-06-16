@@ -24,7 +24,7 @@ The feature extraction process results in a much smaller and richer set of attri
 
 Feature extraction projects a data set with higher dimensionality onto a smaller number of dimensions. 
 
-Feature extraction can be used to extract the themes of a docuent collection, where documents are represents by a set of key words and 
+Feature extraction can be used to extract the themes of a document collection, where documents are represents by a set of key words and 
 their frequencies. 
 
 ---
