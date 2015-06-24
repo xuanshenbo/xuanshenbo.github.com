@@ -56,11 +56,11 @@ Unlike probabilities, probability densities can take positive values greater tha
 
 $p(x, y) = p(x)p(y)$
 
-Provided that $p(x) \neq 0 and p(y) \neq 0 independence of x and y is equivalent to$
+Provided that $p(x) \neq \text{0 and }p(y) \neq$0 independence of x and y is equivalent to
 
 $p(x \mid y) = p(x)$
 
-$Leftrightarrow$
+$\Leftrightarrow$
 
 $p(y \mid x) = p(y)$
 
