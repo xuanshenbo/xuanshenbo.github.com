@@ -1,8 +1,30 @@
 ---
 layout: post
-title: "probability_revision"
+title: "Probability Revision"
 description: ""
-category: 
-tags: []
+category: "Pro"
+tags: [Probability]
 ---
 {% include JB/setup %}
+
+<!--more-->
+
+##Math notations
+
+$\sum_x f(x) \equiv \sum_{s \in dom(x)} f(x = s)$
+
+
+**Definition 1.1** (Rules of Probability for Discrete Variables)
+
+The summation of the probability over all the state is 1:
+
+$\sum_{x \ in dom(x)} p(x = x) = 1$
+
+This is called normalisation condition. We write $\sum_x p(x) = 1$ for short.
+
+Two variables $x$ and $y$ can interact through
+
+$p(x, y) = p(x) + p(y) - p(x \cap y)$
+
+
+
