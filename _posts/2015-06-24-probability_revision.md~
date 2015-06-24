@@ -45,3 +45,40 @@ $p(x \mid y) = \frac{p(y \mid x)p(x)}{p(y)}$
 such that**
 
 $f(x) \geq 0, \int_{-\infty}^\infty f(x) \mathrm{d}x = 1$
+
+and the probability that $x$ falls in an interval [a, b] is given by
+
+$p(a \leq x \leq b) = \int_a^b f(x) \mathrm{d}x$
+
+Unlike probabilities, probability densities can take positive values greater than 1.
+
+**Definition 1.6 (Independence)**
+
+$p(x, y) = p(x)p(y)$
+
+Provided that $p(x) \neq 0 and p(y) \neq 0 independence of x and y is equivalent to$
+
+$p(x \mid y) = p(x)$
+
+$Leftrightarrow$
+
+$p(y \mid x) = p(y)$
+
+we write $x \bot y$
+
+**Definition 1.7 (Conditional Independence)**
+
+$X \bot Y \mid Z$
+
+denotes that the two sets of variables $X$ and $Y$ are independent of each other provided we know the state of the set
+of variables $Z$. For conditional independence, $X$ and $Y$ must be independent given all states of $Z$, means:
+
+$p(X, Y \mid Z) = p(X \mid Z)p(y \mid Z)$
+
+If $X$ and $Y$ are not conditionally independent, they are conditionally dependent, This is written:
+
+$X \top Y \mid Z$
+
+Similarly $X \top Y \mid \emptyset$
+
+
