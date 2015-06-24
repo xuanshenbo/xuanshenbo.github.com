@@ -109,6 +109,4 @@ $p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{\int_{\theta}p(D \mid \thet
 This shows how form a forward or *generative model* $p(D \mid \theta)$ of the dataset, and coupled with a *prior* belief
 $p(\theta)$ about which variable values are appropriate, we can infer the *posterior* distribution $p(\theta \mid D)$
 of the variable in light of the observed data. The *most probable a posteriori (MAP)* setting is that which maximises
-the posterior,$ \theta_{\ast} = arg max_{\theta} p( \theta \mid D )$, for a 'flat prior', $p(\theta)$ being a constant,
-not changing with $\theta$, the MAP solution is equivalent to the *maximum Likelihood*, namely that $\theta$ that
-maximises the Likelihood $p(D \mid \theta)$ of the model generating the observed data.
+the posterior,$\theta_{\ast} = arg max_{\theta} p(\theta \mid D)$ 
