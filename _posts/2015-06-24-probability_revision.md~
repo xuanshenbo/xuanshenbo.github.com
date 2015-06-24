@@ -81,4 +81,34 @@ $X \top Y \mid Z$
 
 Similarly $X \top Y \mid \emptyset$ can be written as $X \top Y$
 
+---
 
+##Probabilistic Reasoning
+
+The central paradigm of probabilistic reasoning is to identify all relevant variables $x_1, \dots, x_N$ in the 
+environment, and make a probabilistic model $p(x_1, \dots, x_N)$ of their interaction. Reasoning(inference) is then 
+performed by introducing *evidence* that sets variables in known states, and subsequently computing probabilities
+of interest, conditioned on this evidence. 
+
+---
+
+##Prior, Likelihood and Posterior
+
+Much of science deals with problems of the form: tell me something about the variable $\theta$ given that 
+I have observed data $D$ and have some knowledge of the underlying data generating mechanism. Our interest is 
+then the quantity
+
+$p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{p(D)}$
+
+We know, for continuous situation, $p(D) = \int_{\theta}p(D, \theta) = \int_{\theta}p(D \mid \theta)p(\theta)$ 
+
+Therefore,
+
+$p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{\int_{\theta}p(D \mid \theta)p(\theta)}$
+
+This shows how form a forward or *generative model* $p(D \mid \theta)$ of the dataset, and coupled with a *prior* belief
+$p(\theta)$ about which variable values are appropriate, we can infer the *posterior* distribution $p(\theta \mid D)$
+of the variable in light of the observed data. The *most probable a posteriori (MAP)* setting is that which maximises
+the posterior, $\theta_{\ast} = arg max_{\theta}p(\theta \mid D)$, for a 'flat prior', $p(\theta)$ being a constant,
+not changing with $\theta$, the MAP solution is equivalent to the *maximum Likelihood*, namely that $\theta$ that
+maximises the Likelihood $p(D \mid \theta) of the model generating the observed data.$
