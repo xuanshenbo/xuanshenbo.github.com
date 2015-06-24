@@ -33,7 +33,7 @@ $p(\text{x or y}) \equiv p(x \cup y)$
 
 $p(x, y) \equiv p(x \cap y)$
 
-**Definition 1.3 (Marginals) **
+**Definition 1.3 (Marginals)**
 
 $p(x) = \sum_y p(x, y)$
 
@@ -56,7 +56,7 @@ Unlike probabilities, probability densities can take positive values greater tha
 
 $p(x, y) = p(x)p(y)$
 
-Provided that $p(x) \neq \text{0 and }p(y) \neq \text{} 0 independence of x and y is equivalent to}$
+Provided that $p(x) \neq \text{0 and }p(y) \neq$0 independence of x and y is equivalent to
 
 $p(x \mid y) = p(x)$
 

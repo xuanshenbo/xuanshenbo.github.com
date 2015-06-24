@@ -33,7 +33,7 @@ $p(\text{x or y}) \equiv p(x \cup y)$
 
 $p(x, y) \equiv p(x \cap y)$
 
-**Definition 1.3 (Marginals) **
+**Definition 1.3 (Marginals)**
 
 $p(x) = \sum_y p(x, y)$
 
@@ -81,4 +81,11 @@ $X \top Y \mid Z$
 
 Similarly $X \top Y \mid \emptyset$ can be written as $X \top Y$
 
+---
 
+##Probabilistic Reasoning
+
+The central paradigm of probabilistic reasoning is to identify all relevant variables $x_1, \dots, x_N$ in the 
+environment, and make a probabilistic model $p(x_1, \dots, x_N)$ of their interaction. Reasoning(inference) is then 
+performed by introducing *evidence* that sets variables in known states, and subsequently computing probabilities
+of interest, conditioned on this evidence. 
