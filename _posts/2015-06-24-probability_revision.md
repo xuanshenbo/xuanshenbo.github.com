@@ -18,7 +18,7 @@ $\sum_x f(x) \equiv \sum_{s \in dom(x)} f(x = s)$
 
 The summation of the probability over all the state is 1:
 
-$\sum_{x \ in dom(x)} p(x = x) = 1$
+$\sum_{x \in dom(x)} p(x = x) = 1$
 
 This is called normalisation condition. We write $\sum_x p(x) = 1$ for short.
 
@@ -29,7 +29,7 @@ $p(x, y) = p(x) + p(y) - p(x \cap y)$
 
 **Definition 1.2 (Set notation) An alternative notation in terms of set theory is to write**
 
-$p(x or y) \equiv p(x \cup y)$
+$p(\text{x or y}) \equiv p(x \cup y)$
 
 $p(x, y) \equiv p(x \cap y)$
 
