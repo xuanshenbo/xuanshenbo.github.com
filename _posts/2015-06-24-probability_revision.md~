@@ -29,7 +29,7 @@ $p(x, y) = p(x) + p(y) - p(x \cap y)$
 
 **Definition 1.2 (Set notation) An alternative notation in terms of set theory is to write**
 
-$p(x or y) \equiv p(x \cup y)$
+$p(\text{x or y}) \equiv p(x \cup y)$
 
 $p(x, y) \equiv p(x \cap y)$
 
@@ -44,4 +44,4 @@ $p(x \mid y) = \frac{p(y \mid x)p(x)}{p(y)}$
 **Definition 1.5 (Probability Density Functions) For a continuous variable x, the probability density f(x) is defined
 such that**
 
-$f(x) \geq 0, \int_-\infty^\infty f(x) \mathrm{d}x = 1$
+$f(x) \geq 0, \int_{-\infty}^\infty f(x) \mathrm{d}x = 1$

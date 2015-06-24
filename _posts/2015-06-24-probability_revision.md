@@ -44,4 +44,4 @@ $p(x \mid y) = \frac{p(y \mid x)p(x)}{p(y)}$
 **Definition 1.5 (Probability Density Functions) For a continuous variable x, the probability density f(x) is defined
 such that**
 
-$f(x) \geq 0, \int_-\infty^\infty f(x) \mathrm{d}x = 1$
+$f(x) \geq 0, \int_{-\infty}^\infty f(x) \mathrm{d}x = 1$
