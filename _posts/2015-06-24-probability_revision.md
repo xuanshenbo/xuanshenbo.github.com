@@ -100,7 +100,7 @@ then the quantity
 
 $p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{p(D)}$
 
-We know, for continuous situation, $p(D) = \int_{\theta}p(D, \theta) = \int_{\theta}p(D \mid \theta)p(\theta)$ 
+We know, for continuous situation, $p(D)$ = $\int_{\theta}p(D, \theta)$ = $\int_{\theta}p(D \mid \theta)p(\theta)$
 
 Therefore,
 
