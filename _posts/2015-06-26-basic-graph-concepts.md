@@ -7,6 +7,18 @@ tags: [Graph]
 ---
 {% include JB/setup %}
 
+###Summary
+
++ A graph is made of nodes and edges, which we will use to represent variables and relations between them
++ A DAG is an acyclic graph and will be useful for representing 'causal' relationships between variables
++ Neighbouring nodes on an undirected graph will be useful represent dependent variables.
++ A graph is singly-connected if there is only one path from any node to any other - otherwise the graph is 
+multiply-connected.
++ A Clique is group of nodes all of which are connected to each other
++ The adjacency matrix is a machine-readable description of a graph. Powers of the adjacency matrix give information
+on the paths between nodes.
+
+
 
 <!--more-->
 
@@ -69,15 +81,34 @@ listed twice, once for each direction.
 
 An alternative is to use an *adjacency matrix*
 
-$A = 
-\begin{pmatrix}
-0 & 1 & 1 & 0 \\
+![Imgur](http://i.imgur.com/QAhc7kO.png)
 
-1 & 0 & 1 &1 \\
+Where $A_{ij} = 1$ if there is an edge from node $i$ to node $j$ in the graph, and 0 otherwise.
+An undirected graph has a symmetric adjacency matrix. 
 
-1 & 1 & 0 & 1 \\
+Provided that the nodes are labelled in *ancestral order* (parents always come before children) a directed Graph 
+(fig2.2b) can be represented as a triangular adjacency matrix:
 
-0 & 1 & 1 & 0 \\
+![Imgur](http://i.imgur.com/FtMnZ0Q.png)\
 
-\end{pmatrix}
-$
+**Clique matrix**
+
+For an undirected graph with N nodes and maximal cliques $C_1, \dots, C_K$ a clique matrix is an $N \times K$ matrix in 
+which each column $c_k$ has zeros except for ones on entries describing the clique. For example
+
+![Imgur](http://i.imgur.com/pzsS27P.png)
+
+**Graph Confusions** 
+
+**State Transition Diagrams**
+
+Such representations are used in Markov chains and finite state automata. Each state is a node and a directed edge
+between  node $i$ and $j$ (with an associated weight $p_{ij}$) represents that a transition from state $i$ to state $j$
+can occur with probability $p_{ij}$. From the graphical models perspective we use a directed graph 
+$x(t) \rightarrow x(t + 1)$ to represent this Markov chain. The state-transition diagram provides a more detailed 
+graphical description of the conditional probability table $p(x(t + 1) \mid x(t))$.
+
+**Neural Networks**
+
+Neural networks also have nodes and edges. In general, however, neural networks are graphical representations of
+*functions*, whereas graphical models are representations of distributions.
