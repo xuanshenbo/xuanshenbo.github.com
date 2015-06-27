@@ -72,8 +72,12 @@ An alternative is to use an *adjacency matrix*
 $A = 
 \begin{pmatrix}
 0 & 1 & 1 & 0 \\
+
 1 & 0 & 1 &1 \\
+
 1 & 1 & 0 & 1 \\
+
 0 & 1 & 1 & 0 \\
+
 \end{pmatrix}
 $
