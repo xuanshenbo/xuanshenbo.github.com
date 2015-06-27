@@ -45,4 +45,35 @@ as large as any other spanning tree of G.
 
 ![Imgur](http://i.imgur.com/F9VSflr.png)
 
+**Finding a maximal weight spanning tree**
+
+An algorithm to find a spanning tree with maximal weight is as follows: Start by picking the edge with the largest 
+weight and add this to the edge set. Then pick the next candidate edge which has the largest weight and add this to 
+the edge set - if this results in an edge set with cycles, the reject the candidate edge and propose the next largest
+edge weight. Note that there may be more than one maximal weight spanning tree.
+
+---
+
+##Numerically Encoding Graphs
+
+###Edge list
+
+As the name suggests, an edge list simply lists which node-node pairs are in the graph. For fig(2.2a), an edge
+list is L = {(1,2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2), (2, 4), (4, 2), (3, 4), (4, 3)}. Undirected edges are 
+listed twice, once for each direction. 
+
+![Imgur](http://i.imgur.com/8BHfCrU.png)
+
+
+###Ajacency matrix
+
+An alternative is to use an *adjacency matrix*
+
+$A = 
+\begin{pmatrix}
+0 & 1 & 1 & 0 \\
+1 & 0 & 1 &1 \\
+1 & 1 & 0 & 1 \\
+0 & 1 & 1 & 0 \\
+$
 
