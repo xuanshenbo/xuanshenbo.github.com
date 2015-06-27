@@ -103,7 +103,7 @@ which each column $c_k$ has zeros except for ones on entries describing the cliq
 **State Transition Diagrams**
 
 Such representations are used in Markov chains and finite state automata. Each state is a node and a directed edge
-between  node $i$ and $j$ (with an associated weight $p_{ij}$) represents that a transition from state $i$ to state $j$
+between  node $i$ and $j$ (with an associated weight $p_{ij}$ ) represents that a transition from state $i$ to state $j$
 can occur with probability $p_{ij}$. From the graphical models perspective we use a directed graph 
 $x(t) \rightarrow x(t + 1)$ to represent this Markov chain. The state-transition diagram provides a more detailed 
 graphical description of the conditional probability table $p(x(t + 1) \mid x(t))$.
