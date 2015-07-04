@@ -100,7 +100,11 @@ then the quantity
 
 $p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{p(D)}$
 
-We know, for continuous situation, $p(D) = \int_{\theta}p(D, \theta) = \int_{\theta}p(D \mid \theta)p(\theta)$ 
+We know, for continuous situation, 
+
+$p(D)$ = $\int_{\theta}p(D, \theta)$
+
+$= \int_{\theta} p(D \mid \theta)p(\theta)$
 
 Therefore,
 
@@ -109,4 +113,4 @@ $p(\theta \mid D) = \frac{p(D \mid \theta)p(\theta)}{\int_{\theta}p(D \mid \thet
 This shows how form a forward or *generative model* $p(D \mid \theta)$ of the dataset, and coupled with a *prior* belief
 $p(\theta)$ about which variable values are appropriate, we can infer the *posterior* distribution $p(\theta \mid D)$
 of the variable in light of the observed data. The *most probable a posteriori (MAP)* setting is that which maximises
-the posterior,$\theta_{\ast} = arg max_{\theta} p(\theta \mid D)$ 
+the posterior,$\theta{\ast} = \text{arg }max_{\theta}$ $p(\theta \mid D)$
