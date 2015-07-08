@@ -116,6 +116,9 @@ of the variable in light of the observed data. The *most probable a posteriori (
 the posterior,$\theta{\ast} = \text{arg }max_{\theta}$ $p(\theta \mid D)$, namely that $\theta$ that maximises the Likelihood $p(D \mid \theta)$
 of the model generating the observed data.
 
+![Imgur](http://i.imgur.com/bmWzqrR.png)
+
+
 ---
 
 ##Graphs
