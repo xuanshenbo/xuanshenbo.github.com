@@ -3,7 +3,7 @@ layout: post
 title: "Belief Network 2"
 description: ""
 category: "Mach"
-tags: ["Mach"]
+tags: ["Machine Learning"]
 ---
 {% include JB/setup %}
 

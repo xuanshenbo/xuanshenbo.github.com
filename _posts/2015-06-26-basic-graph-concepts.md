@@ -98,6 +98,13 @@ which each column $c_k$ has zeros except for ones on entries describing the cliq
 
 ![Imgur](http://i.imgur.com/pzsS27P.png)
 
+The interesting thing is the probability are reverted. We know 
+about evidence B, but we really care about the variable A.
+
+For example B is a test result. This diagnostic reasoning which is from 
+evidence to its causes is turned up-side-down into cause-reasoning.
+
+
 **Graph Confusions** 
 
 **State Transition Diagrams**
