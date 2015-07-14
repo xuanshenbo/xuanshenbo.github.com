@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Planning"
+description: ""
+category: "Mach"
+tags: ["Machine Learning"]
+---
+{% include JB/setup %}
+
+<!--more-->
+
+In real world the planning is difficult. Because of the environment is:
+1. Stochastic
+2. Multi-agent
+3. Partial observability
+
+Instead of planning in the world states, we planning it in the belief state.
+
+For example:
+
+![Imgur](http://i.imgur.com/KAZQnWg.png)
+
+Here is a simple diagram with 8 total states.
+There are three actions, moving right, moving left and suck dirt.
+
+If the robot's sensor break down, it does not know which location it is.
+Then it becomes a partially observed world.
+
+![Imgur](http://i.imgur.com/tKz5sgF.png)
+
+This is the belief state. We start off in the center (8 possible states).
+But if we execute actions, we could gain knwoledge about the world even without sensoring it.
+
+We now know more about the world even without observering anything.
+
+Noticing that we could reaches the goal without ever observing the world. 
+Plans like that care called conformant Plans.
