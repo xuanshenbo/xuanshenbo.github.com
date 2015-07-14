@@ -118,6 +118,50 @@ of the model generating the observed data.
 
 ![Imgur](http://i.imgur.com/bmWzqrR.png)
 
+The interesting thing is the probability are reverted. We know 
+about evidence B, but we really care about the variable A.
+
+For example B is a test result. This diagnostic reasoning which is from 
+evidence to its causes is turned up-side-down into cause-reasoning.
+
+Worth noting that the marginal likelihood or evidence $p(B)$ is hard 
+to compute. It is always expanded by total probability formula.
+
+$p(B) = \displaystyle\sum_a p(B \mid A = a)p(A = a)$
+
+![Imgur](http://i.imgur.com/FPhy3Cu.png)
+
+How many parameters does it take to specify the entire Bayes network?
+
+The answer is 3.
+
+It takes one parameter to specify $p(A)$, and two parameters to 
+specify $p(B \mid A)$ and $p(B \mid \neg A)$
+
+
+---
+
+##Computing trick
+
+we know:
+
+$p(A \mid B) + p(\neg A \mid B) = 1$
+
+We specify:
+
+$p'(A \mid B) = p(B \mid A)p(A)$
+
+$p'(\neg A \mid B) = p(B \mid \neg A)p(\neg A)$
+
+Therefore,
+
+$p(A \mid B) = \eta * p'(A \mid B)$
+
+$p(\neg A \mid B) = \eta *  p'(\neg A \mid B)$
+
+$\eta = \frac{1}{p'(A \mid B) + p'(\neg A \mid B)}$
+
+This could let us avoid calculating the evidence $p(B)$
 
 ---
 
