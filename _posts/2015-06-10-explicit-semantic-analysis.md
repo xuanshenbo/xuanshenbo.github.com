@@ -9,7 +9,6 @@ tags: [IA]
 
 > Explicit semantic analysis (ESA) is a vectorial representation of text that uses a document corpus as a knowledge base.
 
-<!--more-->
 
 
 In ESA, a word is represented as a column vector in the tf-idf matrix of the text corpus and a document is represented as the 
@@ -19,6 +18,7 @@ centroid of the vectors representing its words. Typicall, the text corpus is Wik
 
 2. Natrual concepts: Defined by humans, easily explained
 
+<!--more-->
 Wikipedia titles are the source of the concepts.
 
 Utilised machine learning techniques to build a Semantic Interpreter, this maps fragments of text wo wiki concepts (attribute vector 

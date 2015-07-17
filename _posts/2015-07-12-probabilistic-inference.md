@@ -7,7 +7,6 @@ tags: ["Probability"]
 ---
 {% include JB/setup %}
 
-<!--more-->
 
 #Probabilistic Inference
 
@@ -21,6 +20,8 @@ but we need to compute during the process.
 ##Eumeration
 
 > Eumeration goes through all the possibilities, adds them up and comes with an answer.
+
+<!--more-->
 
 For example, 
 

@@ -7,7 +7,6 @@ tags: ["Machine Learning"]
 ---
 {% include JB/setup %}
 
-<!--more-->
 
 ##IID
 
@@ -32,6 +31,8 @@ Recall types of clustering methods
 3. parameters(e.g. mean/covariance are unknown)
 
 ---
+
+<!--more-->
 
 ###Expectation Maximization algorithm
 
