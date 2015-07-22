@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Discussion with Yi"
+description: ""
+category: "Mach"
+tags: ["Machine Learning"]
+---
+{% include JB/setup %}
+
+I had a nice discussion with Yi Mei last week.
+
+Some important intuition was mentioned in the conversation:
+1. Heuristic algorithm can be interpreter as a sampling process
+
+![Imgur](http://i.imgur.com/VTC1wZ9.png)
+
+We are basically sampling from the search space. 
+Two main concerns, because there are many local minima, we have two criterions: 
+1. Diversity
+2. Convergence
+We mainly want to keep the sampling diversity enough so that we 
+don’t stuck at local minima(although it is inevitable because the 
+global optimal is unknown). Meanwhile, we also want to quickly converge so that the algorithm runs fast.
+
+2. It is hard to do theoretical over the heuristic algorithms, 
+because it involve not only stochastic parameters but also highly depend on the test dataset(overfitting to the data).
+
+But the most important fact is that it works, it works perfectly well and beyond what the most advanced math could do. Because so far the apply math could not really solve the complicated real world problems. Math always try to simplified problems until it can be solved but when it looks back, the problem is over simplified so that it becomes useless. 
+
+On the other hand, heuristic algorithms does not have many concrete the theory. Basically what it does is sampling. Based on the simple assumption of affinity. The search space might not be completely discrete. However, because in the high dimensionality world, no algorithm could guarantee to find global minima. Everyone just care about find a reasonably good result in a feasible period of time. The heuristic algorithm does just that. 
+
+Every “genetic operator” like mutation, crossover serves the two main criterions mentioned above. 
+
+Crossover can be see as a convergence mechanism. Mutation can be see as a “jump out” mechanism that jump out the local minima and keep the population diverse enough.
+
+
+So as we can’t really do theoretical study of heuristic algorithms. What we can do is sensitivity analysis which can be interpreted as:
+
+1. intuition
+2. empirical
+
+Okay, so intuition comes from (might be) background knowledge or domain specific knowledge of the problem that you’re going to solve.
+
+So, heuristic algorithm is just like other machine learning algorithms, you have to has more or less domain specific knowledge about the problem.
+
+Empirical can be explained as, when we don’t have such intuition, maybe we don’t really know what kind of parameter will do well in this kind of data or problem. What we can do is basically try.
+
+It kinds make the study an experimental study. That’s kind of strange in terms of computer science because there is no guarantee about the results where in computer science, most of things are deterministic.
+
+---
+
+First we make a convergence graph so that it is easy for us to analyze the behavior of the heuristic algorithm. It allows us easily compare between different algorithms and see if they are stuck at local minima.
+
+The phenotype-genotype redundancy problem seems an issue. Which should be considered as the main problem with the current algorithm.
+
+---
+
+For the NSGA-II initialization,  because adding an instance could potentially drag the population toward to this instance, therefore, it still tend to cause the population “not” diversity enough. Because when the population starts to move towards this instance, they already miss the chance to go the opposite way where might exist better solutions. Therefore, one of the important measure is convergence. 
+
+![Imgur](http://i.imgur.com/9Zedvtd.png)
+
+
