@@ -85,15 +85,15 @@ This kind of idea could accelerate the convergence as well as does not affect di
 ---
 
 Discussion about:
+
 1. Constructive Heuristic:
-  
   + greedy
   + …
+
 2. Meta-heuristic: like a superset of constructive heuristic
-  
   + PSO
+
 3. Hyper-heuristic
-  
   + automatically decide of what meta-heuristic algorithm to use
 
 The above is for the NSGA-II.

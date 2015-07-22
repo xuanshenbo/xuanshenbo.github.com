@@ -10,6 +10,7 @@ tags: ["Machine Learning"]
 I had a nice discussion with Yi Mei last week.
 
 Some important intuition was mentioned in the conversation:
+
 1. Heuristic algorithm can be interpreter as a sampling process
 
 <!--more-->
@@ -18,8 +19,10 @@ Some important intuition was mentioned in the conversation:
 
 We are basically sampling from the search space. 
 Two main concerns, because there are many local minima, we have two criterions: 
+
 1. Diversity
 2. Convergence
+
 We mainly want to keep the sampling diversity enough so that we 
 don’t stuck at local minima(although it is inevitable because the 
 global optimal is unknown). Meanwhile, we also want to quickly converge so that the algorithm runs fast.
@@ -83,11 +86,14 @@ This kind of idea could accelerate the convergence as well as does not affect di
 
 Discussion about:
 1. Constructive Heuristic:
+  
   + greedy
   + …
 2. Meta-heuristic: like a superset of constructive heuristic
+  
   + PSO
 3. Hyper-heuristic
+  
   + automatically decide of what meta-heuristic algorithm to use
 
 The above is for the NSGA-II.
