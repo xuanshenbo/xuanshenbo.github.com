@@ -12,6 +12,8 @@ I had a nice discussion with Yi Mei last week.
 Some important intuition was mentioned in the conversation:
 1. Heuristic algorithm can be interpreter as a sampling process
 
+<!--more-->
+
 ![Imgur](http://i.imgur.com/VTC1wZ9.png)
 
 We are basically sampling from the search space. 
