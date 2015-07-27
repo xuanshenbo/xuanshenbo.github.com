@@ -76,13 +76,26 @@ And output layer get stitched together.
 
 $\rightarrow$ Arbitrary, add one more layer, so two layer. 
 
-
-
-
-
-
-
 ---
+
+##Preference bias
+
+Preference bias tells you something about the algorithm that you are using 
+to learn. That tells you, given two representations, why I would 
+prefer one over the other. 
+
+###Initial weights
+
+Small random values.
+
+$\rightarrow$ Local minima variability
+
+$\rightarrow$ low complexity: because the large weights could lead to 
+overfitting.
+
+So the neural networks implement a kind of bias that says Prefer correct
+over incorrect but all things being equal, the simpler explanation, is 
+preferred. $\rightarrow$ **Occam's Razor**.
 
 ##Softmax
 
