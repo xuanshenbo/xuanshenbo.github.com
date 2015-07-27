@@ -55,6 +55,35 @@ discrete alternatives.
 
 ---
 
+#Restriction bias
+
+Restriction bias tells you something about the representational power
+of whatever data structure that you're using.
+So in this case, the network of neurons.
+
+And it tells you the set of hypotheses that you're willing to consider.
+
+So in Perceptron, we were only considering planes. 
+
+Sigmoids: much more complex, not much restriction.
+
+$\rightarrow$ Boolean function: network of threshold-like units 
+
+$\rightarrow$ Continuous function: "Connected", a single hidden layer,
+as long as we have enough hidden unit, each unit can worry about one
+little patch of the function, and the patch get set at the hidden layer.
+And output layer get stitched together.
+
+$\rightarrow$ Arbitrary, add one more layer, so two layer. 
+
+
+
+
+
+
+
+---
+
 ##Softmax
 
 It is a kind of soft continuous version of the maximum function. 
