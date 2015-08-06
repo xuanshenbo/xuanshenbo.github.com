@@ -172,9 +172,9 @@ h_\theta(x) = \frac{1}{1+\exp(-\theta^\top x)},
 
 and the model parameters $\theta$ were trained to minimize the cost function
 
-$\begin{align}
+$$\begin{align}
 J(\theta) = -\left[ \sum_{i=1}^m y^{(i)} \log h_\theta(x^{(i)}) + (1-y^{(i)}) \log (1-h_\theta(x^{(i)})) \right]
-\end{align}$
+\end{align}$$
 
 In the softmax regression setting, we are interested in multi-class classification (as opposed to only binary 
 classification), and so the label $y$ can take on $K$ different values, rather than only two. 
