@@ -221,3 +221,56 @@ We now describe the cost function that we’ll use for softmax regression. In th
 $1\\{\cdot\\}$ is the ”‘indicator function,”’ so that $1\\{\hbox{a true statement}\\}=1$, and 
 $1\\{\hbox{a false statement}\\}=0$. For example, $1\\{2+2=4\\}$ evaluates to 1; whereas $1\\{1+1=5\\}$ evaluates to 0. 
 Our cost function will be:
+
+$$
+\begin{align}
+J(\theta) = - \left[ \sum_{i=1}^{m} \sum_{k=1}^{K}  1\left\{y^{(i)} = k\right\} \log \frac{\exp(\theta^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)})}\right]
+\end{align}$$
+
+Notice that this generalizes the logistic regression cost function, which could also have been written:
+
+$$\begin{align}
+J(\theta) = - \left[ \sum_{i=1}^m   (1-y^{(i)}) \log (1-h_\theta(x^{(i)})) + y^{(i)} \log h_\theta(x^{(i)}) \right] \\
+= - \left[ \sum_{i=1}^{m} \sum_{k=0}^{1} 1\left\\{y^{(i)} = k\right\\} \log P(y^{(i)} = k | x^{(i)} ; \theta) \right]
+\end{align}$$
+
+The softmax cost function is similar, except that we now sum over the $K$ different possible values of the class label. 
+Note also that in softmax regression, we have that
+
+$
+P(y^{(i)} = k | x^{(i)} ; \theta) = \frac{\exp(\theta^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)}) }
+$
+
+We cannot solve for the minimum of $J(\theta)$ analytically, and thus as usual we’ll resort to an 
+iterative optimization algorithm. Taking derivatives, one can show that the gradient is:
+
+$$
+\begin{align}
+\nabla_{\theta^{(k)}} J(\theta) = - \sum_{i=1}^{m}{ \left[ x^{(i)} \left( 1\\{ y^{(i)} = k\\}  - P(y^{(i)} = k | x^{(i)}; \theta) \right) \right]  }
+\end{align}
+$$
+
+Recall the meaning of the ”$\nabla_{\theta^{(k)}}$” notation. In particular, 
+$\nabla_{\theta^{(k)}} J(\theta)$ is itself a vector, so that its $j$-th element is 
+$\frac{\partial J(\theta)}{\partial \theta_{lk}}$ the partial derivative of $J(\theta)$ with respect to the $j$-th 
+element of $\theta^{(k)}$.
+
+Armed with this formula for the derivative, one can then plug it into a standard optimization package 
+and have it minimize $J(\theta)$.
+
+---
+
+##Properties of softmax regression parameterization
+
+Softmax regression has an unusual property that it has a “redundant” set of parameters. 
+To explain what this means, suppose we take each of our parameter vectors $\theta^{(j)}$, and subtract some 
+fixed vector $\psi$ from it, so that every $\theta^{(j)}$ is now replaced with $\theta^{(j)} - \psi$ 
+(for every $j=1, \ldots, k$). Our hypothesis now estimates the class label probabilities as
+
+
+$$\begin{align}
+P(y^{(i)} = k | x^{(i)} ; \theta)
+= \frac{\exp((\theta^{(k)}-\psi)^\top x^{(i)})}{\sum_{j=1}^K \exp( (\theta^{(j)}-\psi)^\top x^{(i)})}  \\
+= \frac{\exp(\theta^{(k)\top} x^{(i)}) \exp(-\psi^\top x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)}) \exp(-\psi^\top x^{(i)})} \\
+= \frac{\exp(\theta^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)})}.
+\end{align}$$
