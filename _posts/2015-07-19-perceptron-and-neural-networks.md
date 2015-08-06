@@ -159,4 +159,14 @@ Softmax regression (or multinomial logistic regression) is a generalization of l
 we want to handle multiple classes. In logistic regression we assumed that the labels 
 were binary: $y^{(i)} \in \\{0,1\\}$. 
 We used such a classifier to distinguish between two kinds of hand-written digits. Softmax regression allows us 
-to handle $y^{(i)} \in \{1,\ldots,K\}$ where $K$ is the number of classes.
+to handle $y^{(i)} \in \\{1,\ldots,K\\}$ where $K$ is the number of classes.
+
+Recall that in logistic regression, we had a training set $\\{ (x^{(1)}, y^{(1)}), \ldots, (x^{(m)}, y^{(m)}) \\}$ 
+of $m$ labeled examples, where the input features are $x^{(i)} \in \Re^{n}$. 
+With logistic regression, we were in the binary classification setting, so the labels were $y^{(i)} \in \\{0,1\\}$. 
+Our hypothesis took the form:
+
+$\begin{align}
+h_\theta(x) = \frac{1}{1+\exp(-\theta^\top x)},
+\end{align}$
+
