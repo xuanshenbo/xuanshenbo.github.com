@@ -331,7 +331,7 @@ h(x) =
 
 \frac{1}{ \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) + \exp(\vec{0}^\top x) }
 \begin{bmatrix}
-\exp( (\theta^{(1)}-\theta^{(2)})^\top x )
+\exp( (\theta^{(1)}-\theta^{(2)})^\top x )\\
 \exp( \vec{0}^\top x ) \\
 \end{bmatrix} \\
 
