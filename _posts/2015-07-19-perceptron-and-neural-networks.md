@@ -249,7 +249,7 @@ $$
 \end{align}
 $$
 
-Recall the meaning of the ”$\nabla_{\theta^{(k)}}$” notation. In particular, 
+Recall the meaning of the $\nabla_{\theta^{(k)}}$ notation. In particular, 
 $\nabla_{\theta^{(k)}} J(\theta)$ is itself a vector, so that its $j$-th element is 
 $\frac{\partial J(\theta)}{\partial \theta_{lk}}$ the partial derivative of $J(\theta)$ with respect to the $j$-th 
 element of $\theta^{(k)}$.
