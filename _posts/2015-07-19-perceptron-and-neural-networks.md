@@ -273,3 +273,74 @@ P(y^{(i)} = k | x^{(i)} ; \theta)
 = \frac{\exp(\theta^{(k)\top} x^{(i)}) \exp(-\psi^\top x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)}) \exp(-\psi^\top x^{(i)})} \\
 = \frac{\exp(\theta^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)})}.
 \end{align}$$
+
+In other words, subtracting $\psi$ from every $\theta^{(j)}$ does not affect our hypothesis’ predictions at all! 
+This shows that softmax regression’s parameters are “redundant.” More formally, we say that our softmax model 
+is ”‘overparameterized,”’ meaning that for any hypothesis we might fit to the data, there are multiple parameter 
+settings that give rise to exactly the same hypothesis function $h_\theta$ mapping from inputs $x$ to the predictions.
+
+Further, if the cost function $J(\theta)$ is minimized by some setting of the parameters 
+$(\theta^{(1)}, \theta^{(2)},\ldots, \theta^{(k)})$, then it is also minimized by 
+$(\theta^{(1)} - \psi, \theta^{(2)} - \psi,\ldots,\theta^{(k)} - \psi)$ for any value 
+of $\psi$. Thus, the minimizer of $J(\theta)$ is not unique. (Interestingly, $J(\theta)$ is 
+still convex, and thus gradient descent will not run into local optima problems. But the Hessian is 
+singular/non-invertible, which causes a straightforward implementation of Newton’s method to run into 
+numerical problems.)
+
+Notice also that by setting $\psi = \theta^{(K)}$, one can always replace $\theta^{(K)}$ with 
+$\theta^{(K)} - \psi = \vec{0}$ (the vector of all 0’s), without affecting the hypothesis. 
+Thus, one could “eliminate” the vector of parameters $\theta^{(K)}$ (or any other 
+$\theta^{(k)}$, for any single value of $k$), without harming the representational power of our hypothesis. 
+Indeed, rather than optimizing over the $K\cdot n$ parameters $(\theta^{(1)}, \theta^{(2)},\ldots, \theta^{(K)})$ 
+(where $\theta^{(k)} \in \Re^{n}$), one can instead set $\theta^{(K)} = \vec{0}$ and optimize only with 
+respect to the $K \cdot n$ remaining parameters.
+
+---
+
+##Relationship to Logistic regression
+
+In the special case where $K = 2$, one can show that softmax regression reduces to logistic regression. 
+This shows that softmax regression is a generalization of logistic regression. Concretely, 
+when $K=2$, the softmax regression hypothesis outputs
+
+$$\begin{align}
+h_\theta(x) =
+
+\frac{1}{ \exp(\theta^{(1)\top}x)  + \exp( \theta^{(2)\top} x^{(i)} ) }
+\begin{bmatrix}
+\exp( \theta^{(1)\top} x ) \\
+\exp( \theta^{(2)\top} x )
+\end{bmatrix}
+\end{align}$$
+
+Taking advantage of the fact that this hypothesis is overparameterized and setting $\psi = \theta^{(2)}$, 
+we can subtract $\theta^{(2)}$ from each of the two parameters, giving us
+
+$$\begin{align}
+h(x) &amp;=
+
+\frac{1}{ \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) + \exp(\vec{0}^\top x) }
+\begin{bmatrix}
+\exp( (\theta^{(1)}-\theta^{(2)})^\top x )
+\exp( \vec{0}^\top x ) \\
+\end{bmatrix} \\
+
+=
+\begin{bmatrix}
+\frac{1}{ 1 + \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) } \\
+\frac{\exp( (\theta^{(1)}-\theta^{(2)})^\top x )}{ 1 + \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) }
+\end{bmatrix} \\
+
+=
+\begin{bmatrix}
+\frac{1}{ 1  + \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) } \\
+1 - \frac{1}{ 1  + \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) } \\
+\end{bmatrix}
+\end{align}$$
+
+Thus, replacing $\theta^{(2)}-\theta^{(1)}$ with a single parameter vector $\theta'$, 
+we find that softmax regression predicts the probability of one of the classes as 
+$\frac{1}{ 1  + \exp(- (\theta')^\top x^{(i)} ) }$, and that of the other class as 
+$1 - \frac{1}{ 1 + \exp(- (\theta')^\top x^{(i)} ) }$, same as logistic regression.
+
+
