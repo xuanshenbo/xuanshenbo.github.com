@@ -213,7 +213,7 @@ For convenience, we will also write $\theta$ to denote all the parameters of our
 softmax regression, it is usually convenient to represent $\theta$ as a $n$-by-$K$ matrix obtained by 
 concatenating $\theta^{(1)}, \theta^{(2)}, \ldots, \theta^{(K)}$ into columns, so that
 
-$
+$$
 \theta = \left[\be\theta = \left[\begin{array}{cccc}| &amp; | &amp; | &amp; | \\
 \theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
 | &amp; | &amp; | &amp; |
@@ -224,4 +224,4 @@ $
 \theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
 | &amp; | &amp; | &amp; |
 \end{array}\right].
-$
+$$
