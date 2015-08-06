@@ -151,6 +151,12 @@ the output of the unit times how fast the output as you change the $i$.
 And notice we need to add up across the $j$, because when you change the 
 $i$, the output of all different unit changes. 
 
+---
 
+##A more detailed explanation of Softmax
 
-
+Softmax regression (or multinomial logistic regression) is a generalization of logistic regression to the case where 
+we want to handle multiple classes. In logistic regression we assumed that the labels 
+were binary: $y^{(i)} \in \\{0,1\\}$. 
+We used such a classifier to distinguish between two kinds of hand-written digits. Softmax regression allows us 
+to handle $y^{(i)} \in \{1,\ldots,K\}$ where $K$ is the number of classes.
