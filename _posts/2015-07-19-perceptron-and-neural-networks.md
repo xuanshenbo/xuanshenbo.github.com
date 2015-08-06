@@ -230,7 +230,7 @@ Notice that this generalizes the logistic regression cost function, which could 
 
 $$\begin{align}
 J(\theta) = - \left[ \sum_{i=1}^m   (1-y^{(i)}) \log (1-h_\theta(x^{(i)})) + y^{(i)} \log h_\theta(x^{(i)}) \right] \\
-= - \left[ \sum_{i=1}^{m} \sum_{k=0}^{1} 1\left\\{y^{(i)} = k\right\\} \log P(y^{(i)} = k | x^{(i)} ; \theta) \right]
+= - \left[ \sum_{i=1}^{m} \sum_{k=0}^{1} 1\left\{y^{(i)} = k\right\} \log P(y^{(i)} = k | x^{(i)} ; \theta) \right]
 \end{align}$$
 
 The softmax cost function is similar, except that we now sum over the $K$ different possible values of the class label. 
@@ -245,7 +245,7 @@ iterative optimization algorithm. Taking derivatives, one can show that the grad
 
 $$
 \begin{align}
-\nabla_{\theta^{(k)}} J(\theta) = - \sum_{i=1}^{m}{ \left[ x^{(i)} \left( 1\\{ y^{(i)} = k\\}  - P(y^{(i)} = k | x^{(i)}; \theta) \right) \right]  }
+\nabla_{\theta^{(k)}} J(\theta) = - \sum_{i=1}^{m}{ \left[ x^{(i)} \left( 1\{ y^{(i)} = k\}  - P(y^{(i)} = k | x^{(i)}; \theta) \right) \right]  }
 \end{align}
 $$
 
