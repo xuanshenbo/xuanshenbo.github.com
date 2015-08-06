@@ -213,15 +213,11 @@ For convenience, we will also write $\theta$ to denote all the parameters of our
 softmax regression, it is usually convenient to represent $\theta$ as a $n$-by-$K$ matrix obtained by 
 concatenating $\theta^{(1)}, \theta^{(2)}, \ldots, \theta^{(K)}$ into columns, so that
 
-$$
-\theta = \left[\be\theta = \left[\begin{array}{cccc}| &amp; | &amp; | &amp; | \\
-\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
-| &amp; | &amp; | &amp; |
-\end{array}\right].\theta = \left[\begin{array}{cccc}| &amp; | &amp; | &amp; | \\
-\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
-| &amp; | &amp; | &amp; |
-\end{array}\right].gin{array}{cccc}| &amp; | &amp; | &amp; | \\
-\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
-| &amp; | &amp; | &amp; |
-\end{array}\right].
-$$
+![Imgur](http://i.imgur.com/7515z0b.png)
+
+##Cost function
+
+We now describe the cost function that we’ll use for softmax regression. In the equation below, 
+$1\\{\cdot\\}$ is the ”‘indicator function,”’ so that $1\\{\hbox{a true statement}\\}=1$, and 
+$1\\{\hbox{a false statement}\\}=0$. For example, $1\\{2+2=4\\}$ evaluates to 1; whereas $1\\{1+1=5\\}$ evaluates to 0. 
+Our cost function will be:
