@@ -317,7 +317,7 @@ Taking advantage of the fact that this hypothesis is overparameterized and setti
 we can subtract $\theta^{(2)}$ from each of the two parameters, giving us
 
 $$\begin{align}
-h(x) &amp;=
+h(x) =
 
 \frac{1}{ \exp( (\theta^{(1)}-\theta^{(2)})^\top x^{(i)} ) + \exp(\vec{0}^\top x) }
 \begin{bmatrix}
