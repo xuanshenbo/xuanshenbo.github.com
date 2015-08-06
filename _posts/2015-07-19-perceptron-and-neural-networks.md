@@ -187,7 +187,7 @@ for each value of $k = 1, \ldots, K$. I.e., we want to estimate the probability 
 the $K$ different possible values. Thus, our hypothesis will output a $K$-dimensional vector (whose elements sum to 1) 
 giving us our $K$ estimated probabilities. Concretely, our hypothesis $h_{\theta}(x)$ takes the form:
 
-$$\begin{align }
+$$\begin{align}
 h_\theta(x) = 
 \begin{bmatrix} 
 P(y = 1 | x; \theta) \\
