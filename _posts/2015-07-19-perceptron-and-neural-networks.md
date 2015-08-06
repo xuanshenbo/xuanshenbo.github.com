@@ -205,4 +205,23 @@ P(y = K | x; \theta)
 \end{bmatrix}
 \end{align}$$
 
+Here $\theta^{(1)}, \theta^{(2)}, \ldots, \theta^{(K)} \in \Re^{n}$ are the parameters of our model. 
+Notice that the term $\frac{1}{ \sum_{j=1}^{K}{\exp(\theta^{(j)\top} x) } }$ 
+normalizes the distribution, so that it sums to one.
 
+For convenience, we will also write $\theta$ to denote all the parameters of our model. When you implement 
+softmax regression, it is usually convenient to represent $\theta$ as a $n$-by-$K$ matrix obtained by 
+concatenating $\theta^{(1)}, \theta^{(2)}, \ldots, \theta^{(K)}$ into columns, so that
+
+$
+\theta = \left[\be\theta = \left[\begin{array}{cccc}| &amp; | &amp; | &amp; | \\
+\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
+| &amp; | &amp; | &amp; |
+\end{array}\right].\theta = \left[\begin{array}{cccc}| &amp; | &amp; | &amp; | \\
+\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
+| &amp; | &amp; | &amp; |
+\end{array}\right].gin{array}{cccc}| &amp; | &amp; | &amp; | \\
+\theta^{(1)} &amp; \theta^{(2)} &amp; \cdots &amp; \theta^{(K)} \\
+| &amp; | &amp; | &amp; |
+\end{array}\right].
+$
