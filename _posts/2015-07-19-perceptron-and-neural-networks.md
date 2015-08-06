@@ -170,3 +170,39 @@ $\begin{align}
 h_\theta(x) = \frac{1}{1+\exp(-\theta^\top x)},
 \end{align}$
 
+and the model parameters $\theta$ were trained to minimize the cost function
+
+$\begin{align}
+J(\theta) = -\left[ \sum_{i=1}^m y^{(i)} \log h_\theta(x^{(i)}) + (1-y^{(i)}) \log (1-h_\theta(x^{(i)})) \right]
+\end{align}$
+
+In the softmax regression setting, we are interested in multi-class classification (as opposed to only binary 
+classification), and so the label $y$ can take on $K$ different values, rather than only two. 
+Thus, in our training set $\\{ (x^{(1)}, y^{(1)}), \ldots, (x^{(m)}, y^{(m)}) \\}$, we now have that 
+$y^{(i)} \in \\{1, 2, \ldots, K\\}$. (Note that our convention will be to index the classes starting from 1, 
+rather than from 0.) For example, in the MNIST digit recognition task, we would have $K=10$ different classes.
+
+Given a test input $x$, we want our hypothesis to estimate the probability that $P(y=k \mid x)$ 
+for each value of $k = 1, \ldots, K$. I.e., we want to estimate the probability of the class label taking on each of 
+the $K$ different possible values. Thus, our hypothesis will output a $K$-dimensional vector (whose elements sum to 1) 
+giving us our $K$ estimated probabilities. Concretely, our hypothesis $h_{\theta}(x)$ takes the form:
+
+$\begin{align}
+h_\theta(x) =
+\begin{bmatrix}
+P(y = 1 | x; \theta) \\
+P(y = 2 | x; \theta) \\
+\vdots \\
+P(y = K | x; \theta)
+\end{bmatrix}
+=
+\frac{1}{ \sum_{j=1}^{K}{\exp(\theta^{(j)\top} x) }}
+\begin{bmatrix}
+\exp(\theta^{(1)\top} x ) \\
+\exp(\theta^{(2)\top} x ) \\
+\vdots \\
+\exp(\theta^{(K)\top} x ) \\
+\end{bmatrix}$
+\end{align}
+
+
