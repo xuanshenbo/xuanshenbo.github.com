@@ -222,8 +222,7 @@ $1\\{\cdot\\}$ is the ”‘indicator function,”’ so that $1\\{\hbox{a true 
 $1\\{\hbox{a false statement}\\}=0$. For example, $1\\{2+2=4\\}$ evaluates to 1; whereas $1\\{1+1=5\\}$ evaluates to 0. 
 Our cost function will be:
 
-$$
-\begin{align}
+$$\begin{align}
 J(\theta) = - \left[ \sum_{i=1}^{m} \sum_{k=1}^{K}  1\left\{y^{(i)} = k\right\} \log \frac{\exp(\theta^{(k)\top} x^{(i)})}{\sum_{j=1}^K \exp(\theta^{(j)\top} x^{(i)})}\right]
 \end{align}$$
 
