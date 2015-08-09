@@ -11,7 +11,7 @@ tags: ["Machine Learning"]
 
 What problem is NP-hard in Probability graph model ?
 
-Given a Probability graph model $P_{\Phi}$. A variable $X$ and a value $x \in Val(X)$ compute $P_{\Phi}$ is 
+Given a Probability graph model $P$. A variable $X$ and a value $x \in Val(X)$ compute $P_\Phi(X = x)$ is 
 **NP-hard**. Or even decide if $P_\Phi(X = x) > 0$ is also NP-hard.
 
 ##Sum-Product
