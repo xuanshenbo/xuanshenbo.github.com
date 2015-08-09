@@ -11,7 +11,7 @@ tags: ["Machine Learning"]
 
 What problem is NP-hard in Probability graph model ?
 
-Given a Probability graph model $P_\Phi$. A variable $X$ and a value $x \in Val(X)$ compute $P_\Phi$ is 
+Given a Probability graph model $P_{\Phi}$. A variable $X$ and a value $x \in Val(X)$ compute $P_{\Phi}$ is 
 **NP-hard**. Or even decide if $P_\Phi(X = x) > 0$ is also NP-hard.
 
 ##Sum-Product
@@ -42,7 +42,7 @@ $P(D) = \frac{1}{Z} \tilde{P}(D)$ We can compute $\tilde{P}(D)$ first and then r
 
 But, what if we already know some evidence, say $E = e$ ? We could do *Reduced Factors*
 
-$P(Y\midE = e) = \frac{P(Y, E = e)}{P(E = e)}$
+$P(Y \mid E = e) = \frac{P(Y, E = e)}{P(E = e)}$
 
 $P(Y, E = e) = \displaystyle\sum_w P(Y, W, E = e) = \displaystyle\sum_w \frac{1}{Z} \prod\phi(D_k, E = e)$
 
@@ -52,7 +52,7 @@ In plain english, we could eliminate those factor that contains $E \neq e$.
 
 Why is the equation $\displaystyle\sum_w P(Y, w, E = e)$ hard to compute in general?
 
-Answer: The summation over all $w$ is exponential. If $w$ has 100 binary values, then summing take $2^100$.
+Answer: The summation over all $w$ is exponential. If $w$ has 100 binary values, then summing take $2^{100}$.
 $P(Y, W, E = e)$ is always easy to compute because it is just the proudct of all conditional Probability distribution.
 
 
