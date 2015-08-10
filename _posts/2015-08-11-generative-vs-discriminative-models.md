@@ -51,18 +51,25 @@ In summary.
 **Discriminative model**:
 
 Pros:
+
   + Easy to model, require fewer observation
+
 Cons:
+
   + We can not generate samples from it. Just to classify, not to generate 
 
 **Generative model**:
 
 Pros:
+
   + We get the underlying idea of what the class is built on.
+
 Cons:
+
   + Very expensive, lots of parameters/data
 
 Examples:
 
-	Naive bayes: generative model 
-	logistic regression: Discriminative model
+Naive bayes: generative model 
+
+logistic regression: Discriminative model
