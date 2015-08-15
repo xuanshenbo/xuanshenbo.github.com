@@ -4,6 +4,6 @@ title: About Me
 header: About Me
 group: navigation
 ---
- * **Name:** Maximus Tann
- * **Email:** [maximustann@gmail.com](mailto:maximustann@gmail.com)
- * **Github:** [Maximus Tann](https://github.com/maximustann)
+ * **Name:** Shenbo Xuan
+ * **Email:** [xuanshenbo@hotmail.com](mailto:xuanshenbo@hotmail.com)
+ * **Github:** [Shenbo Xuan](https://github.com/xuanshenbo)
