@@ -77,7 +77,7 @@ Now type the following command:
 ```
 git add .
 ```
-where . means all
+where ```.``` means all
 
 And then:
 
