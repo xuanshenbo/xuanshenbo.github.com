@@ -12,13 +12,13 @@ This tutorial is made for SWEN222 project team members, however everyone can use
 <!--more-->
 
 
-1. [Create a Java project in Eclipse] (#Create Project)
-2. [Initialise your Git configuration for your project] (#Initialise Git)
-3. [Pull the project] (#Pull)
-4. [Make changes] (#Modify)
-5. [Commit and push] (#Push)
-6. [In the future] (#Future)
-7. [Some notes] (#Notes)
+1. [Create a Java project in Eclipse](#Create Project)
+2. [Initialise your Git configuration for your project](#Initialise Git)
+3. [Pull the project](#Pull)
+4. [Make changes](#Modify)
+5. [Commit and push](#Push)
+6. [In the future](#Future)
+7. [Some notes](#Notes)
 
          
 
