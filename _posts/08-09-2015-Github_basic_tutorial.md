@@ -38,6 +38,7 @@ Now you should have created a hidden file ```.git/```. This means you have initi
 To view all your files in the current directory type the command ```ls -a```. If you don't have a ```.git/``` file you did something wrong!
 
 Now go ahead and type the following command:
+
 ```
 git remote add origin https://github.com/xuanshenbo/Test-Github
 ```
@@ -69,18 +70,21 @@ If you are not in our group, feel free to create a class named after yourself.
 **NOTE:** Before doing this step, make sure you are one of the collaborators of the project. You need to email me your log-in name so I can add you as a collaborator.
 
 Now type the following command:
+
 ```
 git add .
 ```
 where . means all
 
 And then:
+
 ```
 git commit -m "comment message"
 ```
 make sure your comment message is clear and sensable. **IT WILL BE MARKED FOR THE PROJECT!!!**
 
 Then:
+
 ```
 git push -u origin master
 ```

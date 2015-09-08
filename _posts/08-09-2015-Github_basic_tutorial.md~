@@ -17,10 +17,11 @@ This tutorial is made for SWEN222 project team members, however everyone can use
 4. [Make changes] (#Modify)
 5. [Commit and push] (#Push)
 6. [In the future] (#Future)
+7. [Some notes] (#Notes)
 
 #Create a Java project in Eclipse <a id="Create Project"></a>
 
-**Note:**For simplicity I use Eclipse here as an example, feel free to use other IDEs or editors.
+**Note:** For simplicity I use Eclipse here as an example, feel free to use other IDEs or editors.
 
 It should be straight forward I'm not gonna say anything here.
 
@@ -89,3 +90,15 @@ Now it will ask for your username and password, after that you are done!
 #In the future <a id="Future"></a>
 
 Since we had done the initilisation part, in the future we will mainly be using the pull and push part. It is pretty much like the first time only that when you do the ```git push -u origin master``` part, you don't have to type the whole thing, ```git push``` will do.
+
+#Some notes <a id="Notes"></a>
+
+**NOTE:** As mentioned above, our commit comments will be marked, not only that, a nice and clear comment always helps. We don't want to hate ourselves 10 days later when we have to know what we did.
+
+**NOTE:** In general, when we do ```git add``` we simply add ```.``` which stands for all. However you can add a single file if you want.
+
+**NOTE:** For now we do not need many other features these will be enough, in the future when we have to we might explore more.
+
+**NOTE:** Most of the time, before a push, pull the project to make sure your projet is up-to-date. In fact I don't think Git allows you to push without a pull.
+
+**NOTE:** Don't worry if we may have found that we like our previous version more, we can always find our previous versions. So make sure you push frequently!
