@@ -36,3 +36,9 @@ Now you should have created a hidden file ```.git/```. This means you have initi
 To view all your files in the current directory type the command ```ls -a```. If you don't have a ```.git/``` file you did something wrong!
 
 **Note:** The reason why we init our directory at the ```src``` file not the project is because the project directory contains a bunch of configurations for IDEs and also bin files. Since we don't want to mess up others' IDEs and we are only interested in the source files in our case, ```src``` would be a better place for us. So make sure all your source code including images are under your ```src``` file.
+
+#Pull the project <a id="Pull"></a>
+
+I have created a project for us:
+
+<a href="https://github.com/xuanshenbo/Test-Github"> Test-Github</a>
