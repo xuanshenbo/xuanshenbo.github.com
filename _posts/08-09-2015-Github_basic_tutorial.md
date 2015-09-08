@@ -106,3 +106,5 @@ Since we had done the initilisation part, in the future we will mainly be using 
 **NOTE:** Most of the time, before a push, pull the project to make sure your projet is up-to-date. In fact I don't think Git allows you to push without a pull.
 
 **NOTE:** Don't worry if we may have found that we like our previous version more, we can always find our previous versions. So make sure you push frequently!
+
+**NOTE:** Generally you want to do all the operations exactly in the ```src``` directory.
