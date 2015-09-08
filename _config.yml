@@ -128,7 +128,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : xuanshenbogithubio
+      short_name : xuanshenbo
     livefyre :
       site_id : 123
     intensedebate :
