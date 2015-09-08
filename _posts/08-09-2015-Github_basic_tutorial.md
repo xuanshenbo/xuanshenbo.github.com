@@ -1,10 +1,10 @@
-   
+---
 layout: post
 title: "Github Basic Tutortial"
-description: "This tutorial is made for SWEN222 project team members, however everyone can use it as a quick tutorial. It only has extremely basic operations."
-category: Unix
-tags: [Unix]
-   
+description: ""
+category: Github
+tags: [Github]
+---
 {% include JB/setup %}
 
 This tutorial is made for SWEN222 project team members, however everyone can use it as a quick tutorial. It only has extremely basic operations.
