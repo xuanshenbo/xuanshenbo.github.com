@@ -30,3 +30,8 @@ Now, go to your ```src``` file under your project and type the following command
 ```
 git init
 ```
+
+Now you should have created a hidden file ```.git/```. This means you have initialised your directory to a git directory.
+
+To view all your files in the current directory type the command ```ls -a```. If you don't have a ```.git/``` file you did something wrong!
+

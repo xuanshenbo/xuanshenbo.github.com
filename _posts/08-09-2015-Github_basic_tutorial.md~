@@ -15,6 +15,18 @@ This tutorial is made for SWEN222 project team members, however everyone can use
 2. [Initialise your Git configuration for your project] (#Initialise Git)
 3. [Pull the project] (#Pull)
 4. [Make changes] (#Modify)
-5. [Commit and push] (#)
+5. [Commit and push] (#Push)
 
-#Create a 
+#Create a Java project in Eclipse <a id="Create Project"></a>
+
+**Note:**For simplicity I use Eclipse here as an example, feel free to use other IDEs or editors.
+
+It should be straight forward I'm not gonna say anything here.
+
+#Initialise your Git configuration for your project <a id="Initialise Git"></a>
+
+Now, go to your ```src``` file under your project and type the following command:
+
+```
+git init
+```
