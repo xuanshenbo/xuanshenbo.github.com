@@ -2,14 +2,15 @@
 layout: post
 title: "Github Basic Tutortial"
 description: "This tutorial is made for SWEN222 project team members, however everyone can use it as a quick tutorial. It only has extremely basic operations."
-category: Github
-tags: [Github]
+category: Unix
+tags: [Unix]
    
 {% include JB/setup %}
 
 This tutorial is made for SWEN222 project team members, however everyone can use it as a quick tutorial. It only has extremely basic operations.
 
 <!--more-->
+
 
 1. [Create a Java project in Eclipse] (#Create Project)
 2. [Initialise your Git configuration for your project] (#Initialise Git)
@@ -18,6 +19,8 @@ This tutorial is made for SWEN222 project team members, however everyone can use
 5. [Commit and push] (#Push)
 6. [In the future] (#Future)
 7. [Some notes] (#Notes)
+
+         
 
 #Create a Java project in Eclipse <a id="Create Project"></a>
 
