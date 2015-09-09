@@ -84,7 +84,7 @@ And then:
 ```
 % git commit -m "comment message"
 ```
-make sure your comment message is clear and sensable. **IT WILL BE MARKED FOR THE PROJECT!!!**
+make sure your comment message is clear and sensible. **IT WILL BE MARKED FOR THE PROJECT!!!**
 
 Then:
 

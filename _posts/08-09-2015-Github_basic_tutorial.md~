@@ -33,7 +33,7 @@ You should know how to do it I'm not gonna say anything here.
 Now, go to your ```src``` file under your project and type the following command:
 
 ```
-git init
+% git init
 ```
 
 Now you should have created a hidden file ```.git/```. This means you have initialised your directory to a git directory.
@@ -43,10 +43,10 @@ To view all your files in the current directory type the command ```ls -a```. If
 Now go ahead and type the following command:
 
 ```
-git remote add origin https://github.com/xuanshenbo/Test-Github
+% git remote add origin https://github.com/xuanshenbo/Test-Github
 ```
 
-**Note:** The reason why we init our directory at the ```src``` file not the project is because the project directory contains a bunch of configurations for IDEs and also bin files. Since we don't want to mess up others' IDEs and we are only interested in the source files in our case, ```src``` would be a better place for us. So make sure all your source code including images are under your ```src``` file.
+**Note:** The reason why we init our directory in the ```src``` directory not the project directory is because the project directory contains a bunch of configuration files for IDEs and also bin files. Since we don't want to mess up others' IDEs and we are only interested in the source files in our case, ```src``` would be a better place for us. So make sure all your source code including images are under your ```src``` directory.
 
 #3. Pull the project <a id="Pull"></a>
 
@@ -57,7 +57,7 @@ I have created a project for us:
 Now under you ```src``` directory, type the following command:
 
 ```
-git pull https://github.com/xuanshenbo/Test-Github
+% git pull https://github.com/xuanshenbo/Test-Github
 ```
 
 Now refresh your project in your Eclipse you will see a test package.
@@ -75,28 +75,28 @@ If you are not in our group, feel free to create a class named after yourself.
 Now type the following command:
 
 ```
-git add .
+% git add .
 ```
 where ```.``` means all
 
 And then:
 
 ```
-git commit -m "comment message"
+% git commit -m "comment message"
 ```
 make sure your comment message is clear and sensable. **IT WILL BE MARKED FOR THE PROJECT!!!**
 
 Then:
 
 ```
-git push -u origin master
+% git push -u origin master
 ```
 
 Now it will ask for your username and password, after that you are done!
 
 #6. In the future <a id="Future"></a>
 
-Since we had done the initilisation part, in the future we will mainly be using the pull and push part. It is pretty much like the first time only that when you do the ```git push -u origin master``` part, you don't have to type the whole thing, ```git push``` will do.
+Since we had done the initilisation part, in the future we will mainly be using the pull and push parts. It is pretty much like the first time only that when you do the ```git push -u origin master``` part, you don't have to type the whole thing, ```git push``` will do.
 
 #7. Some notes <a id="Notes"></a>
 
