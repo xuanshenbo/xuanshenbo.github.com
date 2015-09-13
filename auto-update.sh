@@ -1,5 +1,9 @@
 #!/bin/bash
 
 git add .
-git commit -m 'a'
+
+echo "Enter your comment message: "
+
+git commit -m '$comment message'
+
 git push
