@@ -4,6 +4,8 @@ git add .
 
 echo "Enter your comment message: "
 
-git commit -m '$comment message'
+read message
+
+git commit -m '$message'
 
 git push
