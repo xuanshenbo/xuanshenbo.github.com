@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Github Basic Tutortial"
+title: "Github Basic Tutorial"
 description: ""
 category: Github
 tags: [Github]
