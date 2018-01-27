@@ -1,4 +1,4 @@
 {% for category in categories_list %} 
-	{% include themes/Snail/category.html %}
+  {% include themes/Snail/category.html %}
 {% endfor %}
 {% assign categories_list = nil %}
