@@ -2,7 +2,7 @@
 layout: post
 title: "Github Basic Tutorial"
 description: ""
-category: Github
+category: Tutorial
 tags: [Github]
 ---
 {% include JB/setup %}
