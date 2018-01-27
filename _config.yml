@@ -16,14 +16,14 @@ tagline:
 #
 author :
   name : Shenbo Xuan
-  
+
 # Information for contacts showed at on the footer
 #
 contact :
-  e-mail : mailto:xuanshenbo@hotmail.com
+  Email : mailto:xuanshenbo@hotmail.com
   Github : https://github.com/xuanshenbo
   LinkedIn : http://nz.linkedin.com/in/xuanshenbo
-  
+
 # Links showed on the footer
 #
 links :
@@ -33,7 +33,7 @@ links :
 #
 search : 
   provider : gcse
-  
+
   # Your Google custom search engine ID
   #
   gcse :
@@ -136,17 +136,17 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
   analytics :
-    provider : google 
-    google : 
+    provider : google
+    google :
         tracking_id : 'UA-123-12'
     getclicky :
-      site_id : 
+      site_id :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
@@ -160,7 +160,7 @@ JB :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
